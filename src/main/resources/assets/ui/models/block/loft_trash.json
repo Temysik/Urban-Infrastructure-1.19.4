@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/loft_trash",
+  "textures": {
+    "all": "ui:block/loft-trash_texture",
+    "particle": "ui:block/loft-trash_texture",
+    "0": "ui:block/loft-trash_texture"
+  },
+  "render_type": "solid"
+}

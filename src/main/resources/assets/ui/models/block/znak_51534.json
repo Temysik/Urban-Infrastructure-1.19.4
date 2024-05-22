@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/5.15.34",
+  "textures": {
+    "all": "ui:block/5.15.34",
+    "particle": "ui:block/5.15.34",
+    "1": "ui:block/5.15.34"
+  },
+  "render_type": "cutout"
+}

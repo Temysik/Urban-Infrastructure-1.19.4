@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/traffic-light_train",
+  "textures": {
+    "all": "ui:block/traffic-light_trains_texture",
+    "particle": "ui:block/traffic-light_trains_texture",
+    "0": "ui:block/traffic-light_trains_texture"
+  },
+  "render_type": "translucent"
+}

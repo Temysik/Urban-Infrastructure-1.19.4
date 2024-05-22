@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/otboinik",
+  "textures": {
+    "all": "ui:block/otboinik1",
+    "particle": "ui:block/otboinik1",
+    "0": "ui:block/otboinik1"
+  },
+  "render_type": "cutout"
+}

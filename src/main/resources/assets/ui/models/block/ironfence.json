@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/iron_fence",
+  "textures": {
+    "all": "ui:block/iron_fence_texture",
+    "particle": "ui:block/iron_fence_texture",
+    "0": "ui:block/iron_fence_texture"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/bottle_777",
+  "textures": {
+    "all": "ui:block/bottle_texture",
+    "particle": "ui:block/bottle_texture",
+    "0": "ui:block/bottle_texture"
+  },
+  "render_type": "translucent"
+}

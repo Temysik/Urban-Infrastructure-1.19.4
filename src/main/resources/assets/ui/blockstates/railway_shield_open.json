@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/railway_shield_open"
+    },
+    "facing=east": {
+      "model": "ui:block/railway_shield_open",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/railway_shield_open",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/railway_shield_open",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/cassa_computer"
+    },
+    "facing=east": {
+      "model": "ui:block/cassa_computer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/cassa_computer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/cassa_computer",
+      "y": 270
+    }
+  }
+}

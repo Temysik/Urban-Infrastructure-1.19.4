@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/apteka1",
+  "textures": {
+    "all": "ui:block/apteka1",
+    "particle": "ui:block/apteka1",
+    "1": "ui:block/apteka1"
+  },
+  "render_type": "cutout"
+}

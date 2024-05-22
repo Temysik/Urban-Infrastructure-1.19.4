@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/kondietsionier",
+  "textures": {
+    "all": "ui:block/conditioner_texture",
+    "particle": "ui:block/conditioner_texture",
+    "0": "ui:block/conditioner_texture"
+  },
+  "render_type": "cutout"
+}

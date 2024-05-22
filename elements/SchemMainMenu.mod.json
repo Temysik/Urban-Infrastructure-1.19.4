@@ -1,0 +1,46 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "chiertiezh_glavnoiemieniu.png",
+          "use1Xscale": false,
+          "x": 81,
+          "y": 13
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MainToOpora"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 321,
+          "y": 18
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

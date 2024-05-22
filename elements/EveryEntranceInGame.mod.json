@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">player_log_in</field><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">[UI] Добро пожаловать в §e Urban Infrastructure!</field></block></value><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">[UI] Для использования информаторов на вокзале следует скачать ресурспак : пауза - страница со всеми модами - urban infrastructure - информаторы</field></block></value><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">[UI] Наш тг-чат: t.me/urban_infrastructure</field></block></value></block></next></block></next></block></next></block></xml>"
+  }
+}

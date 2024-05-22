@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/balka_2",
+  "textures": {
+    "all": "ui:block/balka_2",
+    "particle": "ui:block/balka_2",
+    "0": "ui:block/balka_2"
+  },
+  "render_type": "translucent"
+}

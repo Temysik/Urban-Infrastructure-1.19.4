@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "street-fence_2_texture"
+      },
+      "name": "default"
+    }
+  }
+}

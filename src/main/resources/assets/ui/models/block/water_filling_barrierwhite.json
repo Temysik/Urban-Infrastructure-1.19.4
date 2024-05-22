@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/water-filling_barrier_white",
+  "textures": {
+    "all": "ui:block/water-filling_barrier_white_texture",
+    "particle": "ui:block/water-filling_barrier_white_texture",
+    "0": "ui:block/water-filling_barrier_white_texture"
+  },
+  "render_type": "translucent"
+}

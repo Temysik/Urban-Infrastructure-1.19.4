@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/hatch",
+  "textures": {
+    "all": "ui:block/hatch_texture",
+    "particle": "ui:block/hatch_texture",
+    "0": "ui:block/hatch_texture"
+  },
+  "render_type": "cutout"
+}

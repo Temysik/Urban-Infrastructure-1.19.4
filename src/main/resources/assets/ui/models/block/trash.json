@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/trash",
+  "textures": {
+    "all": "ui:block/trash_texture",
+    "particle": "ui:block/trash_texture",
+    "0": "ui:block/trash_texture"
+  },
+  "render_type": "translucent"
+}

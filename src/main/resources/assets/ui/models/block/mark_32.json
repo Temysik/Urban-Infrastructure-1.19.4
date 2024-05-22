@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/mark32",
+  "textures": {
+    "all": "ui:block/block32",
+    "particle": "ui:block/block32",
+    "0": "ui:block/block32"
+  },
+  "render_type": "cutout"
+}

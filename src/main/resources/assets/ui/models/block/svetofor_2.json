@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/svetofor2",
+  "textures": {
+    "all": "ui:block/svetofor2_animated",
+    "particle": "ui:block/svetofor2_animated",
+    "0": "ui:block/svetofor2_animated"
+  },
+  "render_type": "cutout"
+}

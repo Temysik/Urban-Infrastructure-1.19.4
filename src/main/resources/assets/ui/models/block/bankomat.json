@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/bankomat",
+  "textures": {
+    "all": "ui:block/bankomat_texture",
+    "particle": "ui:block/bankomat_texture",
+    "0": "ui:block/bankomat_texture"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/mail-box",
+  "textures": {
+    "all": "ui:block/mail_box_texture",
+    "particle": "ui:block/mail_box_texture",
+    "0": "ui:block/mail_box_texture"
+  },
+  "render_type": "translucent"
+}

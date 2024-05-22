@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/buoy",
+  "textures": {
+    "all": "ui:block/buoy_texture",
+    "particle": "ui:block/buoy_texture",
+    "0": "ui:block/buoy_texture"
+  },
+  "render_type": "cutout"
+}

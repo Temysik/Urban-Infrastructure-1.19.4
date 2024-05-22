@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/manever_light",
+  "textures": {
+    "all": "ui:block/manever_light-2_texture",
+    "particle": "ui:block/manever_light-2_texture",
+    "0": "ui:block/manever_light-2_texture"
+  },
+  "render_type": "translucent"
+}

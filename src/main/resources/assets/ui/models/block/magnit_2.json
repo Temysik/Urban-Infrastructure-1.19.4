@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/magnit2",
+  "textures": {
+    "all": "ui:block/magnit2",
+    "particle": "ui:block/magnit2",
+    "1": "ui:block/magnit2"
+  },
+  "render_type": "cutout"
+}

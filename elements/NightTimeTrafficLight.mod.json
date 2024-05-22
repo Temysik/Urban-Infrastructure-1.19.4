@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"407\" y=\"321\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">§e Светофоры переведены в ночной режим!</field></block></value><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">Данная фунция находится в разработке</field></block></value></block></next></block></next></block></xml>"
+  }
+}

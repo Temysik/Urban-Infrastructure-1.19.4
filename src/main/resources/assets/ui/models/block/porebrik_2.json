@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/porebrik2",
+  "textures": {
+    "all": "ui:block/porebrik2",
+    "particle": "ui:block/porebrik2",
+    "0": "ui:block/porebrik2"
+  },
+  "render_type": "cutout"
+}

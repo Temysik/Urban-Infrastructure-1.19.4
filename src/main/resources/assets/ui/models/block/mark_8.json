@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/mark8",
+  "textures": {
+    "all": "ui:block/block8",
+    "particle": "ui:block/block8",
+    "0": "ui:block/block8"
+  },
+  "render_type": "cutout"
+}

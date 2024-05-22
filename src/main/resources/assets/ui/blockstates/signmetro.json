@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/signmetro"
+    },
+    "facing=east": {
+      "model": "ui:block/signmetro",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/signmetro",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/signmetro",
+      "y": 270
+    }
+  }
+}

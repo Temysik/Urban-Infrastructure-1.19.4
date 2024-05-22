@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/storage_box",
+  "textures": {
+    "all": "ui:block/storage-box_texture",
+    "particle": "ui:block/storage-box_texture",
+    "0": "ui:block/storage-box_texture"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/7.12",
+  "textures": {
+    "all": "ui:block/7.12",
+    "particle": "ui:block/7.12",
+    "0": "ui:block/7.12"
+  },
+  "render_type": "solid"
+}

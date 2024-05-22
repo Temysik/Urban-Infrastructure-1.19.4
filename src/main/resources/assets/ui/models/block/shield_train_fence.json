@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/shield_train_fence",
+  "textures": {
+    "all": "ui:block/shield_train_fence_texture",
+    "particle": "ui:block/shield_train_fence_texture",
+    "0": "ui:block/shield_train_fence_texture"
+  },
+  "render_type": "translucent"
+}

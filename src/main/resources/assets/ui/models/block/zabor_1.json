@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/zabor1",
+  "textures": {
+    "all": "ui:block/stolb1",
+    "particle": "ui:block/stolb1",
+    "0": "ui:block/zabor-1_texture"
+  },
+  "render_type": "cutout"
+}

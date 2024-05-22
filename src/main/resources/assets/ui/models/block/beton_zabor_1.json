@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/betonzabor",
+  "textures": {
+    "all": "ui:block/betonzabor",
+    "particle": "ui:block/betonzabor",
+    "0": "ui:block/betonzabor"
+  },
+  "render_type": "cutout"
+}

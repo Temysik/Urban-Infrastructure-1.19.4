@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/apteka2",
+  "textures": {
+    "all": "ui:block/apteka2",
+    "particle": "ui:block/apteka2",
+    "0": "ui:block/apteka2"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/ogr",
+  "textures": {
+    "all": "ui:block/ogr",
+    "particle": "ui:block/ogr",
+    "0": "ui:block/ogr"
+  },
+  "render_type": "cutout"
+}

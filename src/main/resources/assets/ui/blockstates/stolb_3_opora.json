@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/stolb_3_opora"
+    },
+    "facing=east": {
+      "model": "ui:block/stolb_3_opora",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/stolb_3_opora",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/stolb_3_opora",
+      "y": 270
+    }
+  }
+}

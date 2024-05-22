@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/znak_79"
+    },
+    "facing=east": {
+      "model": "ui:block/znak_79",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/znak_79",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/znak_79",
+      "y": 270
+    }
+  }
+}

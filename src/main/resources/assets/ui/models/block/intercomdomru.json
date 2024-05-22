@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/intercom_domru",
+  "textures": {
+    "all": "ui:block/intercom_domru_texture",
+    "particle": "ui:block/intercom_domru_texture",
+    "1": "ui:block/intercom_domru_texture"
+  },
+  "render_type": "cutout"
+}

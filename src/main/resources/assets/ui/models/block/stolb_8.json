@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/stolb_7",
+  "textures": {
+    "all": "ui:block/stolb1",
+    "particle": "ui:block/stolb1",
+    "0": "ui:block/stolb1"
+  },
+  "render_type": "cutout"
+}

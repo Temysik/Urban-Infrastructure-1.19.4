@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/sign_metro",
+  "textures": {
+    "all": "ui:block/sign_metro_texture",
+    "particle": "ui:block/sign_metro_texture",
+    "0": "ui:block/sign_metro_texture"
+  },
+  "render_type": "cutout"
+}

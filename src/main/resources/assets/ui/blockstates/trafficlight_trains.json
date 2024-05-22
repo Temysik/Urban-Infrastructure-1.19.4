@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/trafficlight_trains"
+    },
+    "facing=east": {
+      "model": "ui:block/trafficlight_trains",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/trafficlight_trains",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/trafficlight_trains",
+      "y": 270
+    }
+  }
+}

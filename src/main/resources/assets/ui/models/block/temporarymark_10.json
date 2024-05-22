@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/temporarymark10",
+  "textures": {
+    "all": "ui:block/temporarymark10",
+    "particle": "ui:block/temporarymark10",
+    "0": "ui:block/temporarymark10"
+  },
+  "render_type": "cutout"
+}

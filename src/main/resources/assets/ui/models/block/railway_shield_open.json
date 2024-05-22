@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/railway-shield_open",
+  "textures": {
+    "all": "ui:block/railway_shield_open_texture",
+    "particle": "ui:block/railway_shield_open_texture",
+    "0": "ui:block/railway_shield_open_texture"
+  },
+  "render_type": "translucent"
+}

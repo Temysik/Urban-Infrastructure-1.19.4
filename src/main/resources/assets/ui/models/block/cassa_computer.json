@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/kassa_computer",
+  "textures": {
+    "all": "ui:block/kassa_computer_texture",
+    "particle": "ui:block/kassa_computer_texture",
+    "0": "ui:block/kassa_computer_texture"
+  },
+  "render_type": "cutout"
+}

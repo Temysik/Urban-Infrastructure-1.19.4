@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Transport Infrastructure",
+    "icon": {
+      "value": "Items.MINECART"
+    },
+    "showSearch": false
+  }
+}

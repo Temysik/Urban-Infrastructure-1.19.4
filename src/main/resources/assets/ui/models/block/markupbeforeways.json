@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/markup_before_ways",
+  "textures": {
+    "all": "ui:block/markup_before_ways_texture",
+    "particle": "ui:block/markup_before_ways_texture",
+    "0": "ui:block/markup_before_ways_texture"
+  },
+  "render_type": "translucent"
+}

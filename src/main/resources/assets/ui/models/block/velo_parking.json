@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/veloparking",
+  "textures": {
+    "all": "ui:block/veloparking_texture",
+    "particle": "ui:block/veloparking_texture",
+    "0": "ui:block/veloparking_texture"
+  },
+  "render_type": "translucent"
+}

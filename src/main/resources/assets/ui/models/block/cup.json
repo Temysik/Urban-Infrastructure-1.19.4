@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/cup",
+  "textures": {
+    "all": "ui:block/cup_texture",
+    "particle": "ui:block/cup_texture",
+    "0": "ui:block/cup_texture"
+  },
+  "render_type": "translucent"
+}

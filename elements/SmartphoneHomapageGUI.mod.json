@@ -1,0 +1,74 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "homepage_phone.png",
+          "use1Xscale": true,
+          "x": 141,
+          "y": 17
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_contacts_icon",
+          "image": "contacts_icon.png",
+          "hoveredImage": "contacts_icon.png",
+          "onClick": {
+            "name": "HomeToContactsSmartphone"
+          },
+          "x": 168,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_group_1",
+          "image": "group_1.png",
+          "hoveredImage": "group_1.png",
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_phone_icon",
+          "image": "phone_icon.png",
+          "hoveredImage": "phone_icon.png",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_browser_icon",
+          "image": "browser_icon.png",
+          "hoveredImage": "browser_icon.png",
+          "x": 213,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

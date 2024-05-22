@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/exitable_light",
+  "textures": {
+    "all": "ui:block/exitable_light_texture",
+    "particle": "ui:block/exitable_light_texture",
+    "0": "ui:block/exitable_light_texture"
+  },
+  "render_type": "translucent"
+}

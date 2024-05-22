@@ -1,0 +1,82 @@
+{
+  "chertoga_samara_otpravlayetca_on_2_pyt": {
+    "sounds": [
+      {
+        "name": "ui:chertoga_samara_otpravlayetca_on_2_pyt",
+        "stream": false
+      }
+    ]
+  },
+  "chertoga_samara_pribivaet_on_2_pyt": {
+    "sounds": [
+      {
+        "name": "ui:chertoga_samara_pribivaet_on_2_pyt",
+        "stream": false
+      }
+    ]
+  },
+  "kirov_saratov_otprav_2_pyt": {
+    "sounds": [
+      {
+        "name": "ui:kirov-saratov-otpav-vtor-pyt",
+        "stream": false
+      }
+    ]
+  },
+  "kirov_saratov_prib_2_pyt": {
+    "sounds": [
+      {
+        "name": "ui:kirov-saratov-prib-vtor-pyt",
+        "stream": false
+      }
+    ]
+  },
+  "moscow-tolliati-otprav-perviy-pyt": {
+    "sounds": [
+      {
+        "name": "ui:moscow-tolliati-otprav-perviy-pyt",
+        "stream": false
+      }
+    ]
+  },
+  "moscow-tolliati-prib-1-pyt": {
+    "sounds": [
+      {
+        "name": "ui:moscow-tolliati-prib-1-pyt",
+        "stream": false
+      }
+    ]
+  },
+  "orenburg-moscow-prib-na-vtor-pyt": {
+    "sounds": [
+      {
+        "name": "ui:orenburg-moscow-prib-na-vtor-pyt",
+        "stream": false
+      }
+    ]
+  },
+  "orenburg-moscow-prib-na-vtor-pyt-cheres-30-min": {
+    "sounds": [
+      {
+        "name": "ui:orenburg-moscow-prib-na-vtor-pyt-cheres-30-min",
+        "stream": false
+      }
+    ]
+  },
+  "satatov-chelab-otprav-chetv-pyt": {
+    "sounds": [
+      {
+        "name": "ui:satatov-chelab-otprav-chetv-pyt",
+        "stream": false
+      }
+    ]
+  },
+  "street_sound": {
+    "sounds": [
+      {
+        "name": "ui:street_sound",
+        "stream": false
+      }
+    ]
+  }
+}

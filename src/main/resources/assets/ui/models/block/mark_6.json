@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/mark6",
+  "textures": {
+    "all": "ui:block/block6",
+    "particle": "ui:block/block6",
+    "0": "ui:block/block6"
+  },
+  "render_type": "cutout"
+}

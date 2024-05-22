@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/station_sign",
+  "textures": {
+    "all": "ui:block/station_sign_texture",
+    "particle": "ui:block/station_sign_texture",
+    "0": "ui:block/station_sign_texture"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "eletric_shield_on_stolb_texture"
+      },
+      "name": "default"
+    }
+  }
+}

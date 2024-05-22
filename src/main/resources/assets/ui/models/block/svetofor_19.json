@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/svetofor31",
+  "textures": {
+    "all": "ui:block/danya_text_anim",
+    "particle": "ui:block/danya_text_anim",
+    "0": "ui:block/danya_text_anim"
+  },
+  "render_type": "cutout"
+}

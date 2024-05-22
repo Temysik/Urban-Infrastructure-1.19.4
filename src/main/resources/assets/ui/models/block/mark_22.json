@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/mark22",
+  "textures": {
+    "all": "ui:block/block22",
+    "particle": "ui:block/block22",
+    "0": "ui:block/block22"
+  },
+  "render_type": "cutout"
+}

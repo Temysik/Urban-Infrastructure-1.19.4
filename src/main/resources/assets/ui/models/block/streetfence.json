@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/street-fence",
+  "textures": {
+    "all": "ui:block/street-fence_texture",
+    "particle": "ui:block/street-fence_texture",
+    "1": "ui:block/street-fence_texture"
+  },
+  "render_type": "translucent"
+}

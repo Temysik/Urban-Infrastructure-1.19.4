@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ui"
+version="2.0"
+displayName="Urban Infrastructure"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Авторы мода - Dr. Elizes, Temysik"
+authors="Dr. Elizes, Temysik"
+description="Информаторы - https://legacy.curseforge.com/minecraft/texture-packs/urban_informators Связь с авторами: t.me/urban_infrastructure"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ui]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.ui]]
+    modId="urban_informator"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

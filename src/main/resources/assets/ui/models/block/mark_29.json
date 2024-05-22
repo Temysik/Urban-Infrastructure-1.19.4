@@ -1,0 +1,10 @@
+{
+  "parent": "ui:custom/mark29",
+  "textures": {
+    "all": "ui:block/block29",
+    "particle": "ui:block/block29",
+    "0": "ui:block/block29",
+    "1": "ui:block/block29"
+  },
+  "render_type": "cutout"
+}

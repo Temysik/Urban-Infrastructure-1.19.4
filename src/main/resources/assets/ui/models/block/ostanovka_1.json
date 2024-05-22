@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/ostanovka",
+  "textures": {
+    "all": "ui:block/ostanovka_texture",
+    "particle": "ui:block/ostanovka_texture",
+    "0": "ui:block/ostanovka_texture"
+  },
+  "render_type": "translucent"
+}

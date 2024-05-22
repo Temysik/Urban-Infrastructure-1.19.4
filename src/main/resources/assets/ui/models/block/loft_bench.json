@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/loft_bench",
+  "textures": {
+    "all": "ui:block/loft-bench_texture",
+    "particle": "ui:block/loft-bench_texture",
+    "0": "ui:block/loft-bench_texture"
+  },
+  "render_type": "cutout"
+}

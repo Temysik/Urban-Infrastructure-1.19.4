@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/mark26",
+  "textures": {
+    "all": "ui:block/block26",
+    "particle": "ui:block/block26",
+    "0": "ui:block/block26"
+  },
+  "render_type": "cutout"
+}

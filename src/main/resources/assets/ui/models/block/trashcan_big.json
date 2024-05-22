@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/trash-can_big",
+  "textures": {
+    "all": "ui:block/trash-can_big_texture",
+    "particle": "ui:block/trash-can_big_texture",
+    "0": "ui:block/trash-can_big_texture"
+  },
+  "render_type": "cutout"
+}

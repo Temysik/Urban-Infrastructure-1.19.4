@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/ironfence"
+    },
+    "facing=east": {
+      "model": "ui:block/ironfence",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/ironfence",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/ironfence",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/temporary41",
+  "textures": {
+    "all": "ui:block/temporary41",
+    "particle": "ui:block/temporary41",
+    "1": "ui:block/temporary41"
+  },
+  "render_type": "cutout"
+}

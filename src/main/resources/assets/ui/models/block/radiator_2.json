@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/radiator_2",
+  "textures": {
+    "all": "ui:block/radiator_2",
+    "particle": "ui:block/radiator_2",
+    "0": "ui:block/radiator_2"
+  },
+  "render_type": "cutout_mipped"
+}

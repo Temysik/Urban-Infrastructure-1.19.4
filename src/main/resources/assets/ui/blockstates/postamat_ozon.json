@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ui:block/postamat_ozon"
+    },
+    "facing=east": {
+      "model": "ui:block/postamat_ozon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ui:block/postamat_ozon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ui:block/postamat_ozon",
+      "y": 270
+    }
+  }
+}
