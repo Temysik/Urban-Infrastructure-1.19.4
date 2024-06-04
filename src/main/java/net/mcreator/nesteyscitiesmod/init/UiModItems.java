@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.nesteyscitiesmod.item.SmartphoneItem;
 import net.mcreator.nesteyscitiesmod.item.SchemaItemItem;
 import net.mcreator.nesteyscitiesmod.item.MoneyItem;
+import net.mcreator.nesteyscitiesmod.item.CardItem;
 import net.mcreator.nesteyscitiesmod.UiMod;
 
 public class UiModItems {
@@ -500,27 +501,19 @@ public class UiModItems {
 	public static final RegistryObject<Item> SVETOFOR_1 = block(UiModBlocks.SVETOFOR_1);
 	public static final RegistryObject<Item> SVETOFOR_2 = block(UiModBlocks.SVETOFOR_2);
 	public static final RegistryObject<Item> SVETOFOR_3 = block(UiModBlocks.SVETOFOR_3);
-	public static final RegistryObject<Item> SVETOFOR_4 = block(UiModBlocks.SVETOFOR_4);
 	public static final RegistryObject<Item> SVETOFOR_5 = block(UiModBlocks.SVETOFOR_5);
 	public static final RegistryObject<Item> SVETOFOR_6 = block(UiModBlocks.SVETOFOR_6);
-	public static final RegistryObject<Item> SVETOFOR_9 = block(UiModBlocks.SVETOFOR_9);
 	public static final RegistryObject<Item> SVETOFOR_10 = block(UiModBlocks.SVETOFOR_10);
 	public static final RegistryObject<Item> SVETOFOR_11 = block(UiModBlocks.SVETOFOR_11);
 	public static final RegistryObject<Item> SVETOFOR_12 = block(UiModBlocks.SVETOFOR_12);
 	public static final RegistryObject<Item> SVETOFOR_13 = block(UiModBlocks.SVETOFOR_13);
 	public static final RegistryObject<Item> SVETOFOR_14 = block(UiModBlocks.SVETOFOR_14);
 	public static final RegistryObject<Item> SVETOFOR_15 = block(UiModBlocks.SVETOFOR_15);
-	public static final RegistryObject<Item> SVETOFOR_17 = block(UiModBlocks.SVETOFOR_17);
-	public static final RegistryObject<Item> SVETOFOR_18 = block(UiModBlocks.SVETOFOR_18);
 	public static final RegistryObject<Item> SVETOFOR_19 = block(UiModBlocks.SVETOFOR_19);
 	public static final RegistryObject<Item> SVETOFOR_20 = block(UiModBlocks.SVETOFOR_20);
 	public static final RegistryObject<Item> SVETOFOR_21 = block(UiModBlocks.SVETOFOR_21);
-	public static final RegistryObject<Item> SVETOFOR_22 = block(UiModBlocks.SVETOFOR_22);
 	public static final RegistryObject<Item> SVETOFOR_23 = block(UiModBlocks.SVETOFOR_23);
 	public static final RegistryObject<Item> SVETOFOR_24 = block(UiModBlocks.SVETOFOR_24);
-	public static final RegistryObject<Item> SVETOFOR_25 = block(UiModBlocks.SVETOFOR_25);
-	public static final RegistryObject<Item> SVETOFOR_26 = block(UiModBlocks.SVETOFOR_26);
-	public static final RegistryObject<Item> SVETOFOR_27 = block(UiModBlocks.SVETOFOR_27);
 	public static final RegistryObject<Item> ZABOR_1 = block(UiModBlocks.ZABOR_1);
 	public static final RegistryObject<Item> ZABOR_2 = block(UiModBlocks.ZABOR_2);
 	public static final RegistryObject<Item> OSTANOVKA_1 = block(UiModBlocks.OSTANOVKA_1);
@@ -589,7 +582,6 @@ public class UiModItems {
 	public static final RegistryObject<Item> RAILWAY_SHIELD_OPEN = block(UiModBlocks.RAILWAY_SHIELD_OPEN);
 	public static final RegistryObject<Item> SMARTPHONE = REGISTRY.register("smartphone", () -> new SmartphoneItem());
 	public static final RegistryObject<Item> BOTTLE_777 = block(UiModBlocks.BOTTLE_777);
-	public static final RegistryObject<Item> ELECTRIC_SHIELD_OPENED = block(UiModBlocks.ELECTRIC_SHIELD_OPENED);
 	public static final RegistryObject<Item> TRAFFICLIGHT_TRAINS = block(UiModBlocks.TRAFFICLIGHT_TRAINS);
 	public static final RegistryObject<Item> TRASH_CAN_STREET = block(UiModBlocks.TRASH_CAN_STREET);
 	public static final RegistryObject<Item> TRASH = block(UiModBlocks.TRASH);
@@ -605,6 +597,7 @@ public class UiModItems {
 	public static final RegistryObject<Item> LAPTOP = block(UiModBlocks.LAPTOP);
 	public static final RegistryObject<Item> SCHEMA_ITEM = REGISTRY.register("schema_item", () -> new SchemaItemItem());
 	public static final RegistryObject<Item> MONEY = REGISTRY.register("money", () -> new MoneyItem());
+	public static final RegistryObject<Item> CARD = REGISTRY.register("card", () -> new CardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

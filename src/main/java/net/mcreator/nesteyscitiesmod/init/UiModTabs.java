@@ -66,6 +66,7 @@ public class UiModTabs {
 			tabData.accept(UiModItems.SMARTPHONE.get());
 			tabData.accept(UiModBlocks.BOTTLE_777.get().asItem());
 			tabData.accept(UiModItems.SCHEMA_ITEM.get());
+			tabData.accept(UiModItems.CARD.get());
 		})
 
 		);

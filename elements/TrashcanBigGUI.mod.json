@@ -17,13 +17,16 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "id": 0,
           "disablePickup": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "TestTrashCan"
+          },
           "x": 132,
           "y": 44
         }

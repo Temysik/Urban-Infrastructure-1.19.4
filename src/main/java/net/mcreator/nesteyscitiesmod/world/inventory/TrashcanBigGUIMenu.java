@@ -18,7 +18,9 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.nesteyscitiesmod.network.TrashcanBigGUISlotMessage;
 import net.mcreator.nesteyscitiesmod.init.UiModMenus;
+import net.mcreator.nesteyscitiesmod.UiMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -78,6 +80,22 @@ public class TrashcanBigGUIMenu extends AbstractContainerMenu implements Supplie
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 8) {
 			private final int slot = 0;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(0, 0, 0);
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 8) {
 			private final int slot = 1;
@@ -271,6 +289,13 @@ public class TrashcanBigGUIMenu extends AbstractContainerMenu implements Supplie
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			UiMod.PACKET_HANDLER.sendToServer(new TrashcanBigGUISlotMessage(slotid, x, y, z, ctype, meta));
+			TrashcanBigGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

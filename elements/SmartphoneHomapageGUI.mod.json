@@ -61,6 +61,22 @@
           "x": 213,
           "y": 80
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "",
+            "name": "ShowTime"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 276,
+          "y": 17
+        }
       }
     ],
     "gridSettings": {

@@ -1,9 +1,0 @@
-{
-  "parent": "ui:custom/svetofor28",
-  "textures": {
-    "all": "ui:block/svetofor28",
-    "particle": "ui:block/svetofor28",
-    "0": "ui:block/svetofor28"
-  },
-  "render_type": "cutout"
-}

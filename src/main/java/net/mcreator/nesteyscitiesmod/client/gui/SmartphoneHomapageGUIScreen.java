@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.ImageButton;
 
 import net.mcreator.nesteyscitiesmod.world.inventory.SmartphoneHomapageGUIMenu;
+import net.mcreator.nesteyscitiesmod.procedures.ShowTimeProcedure;
 import net.mcreator.nesteyscitiesmod.network.SmartphoneHomapageGUIButtonMessage;
 import net.mcreator.nesteyscitiesmod.UiMod;
 
@@ -77,6 +78,9 @@ public class SmartphoneHomapageGUIScreen extends AbstractContainerScreen<Smartph
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack,
+
+				ShowTimeProcedure.execute(), 62, -20, -1);
 	}
 
 	@Override

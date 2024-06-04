@@ -1,9 +1,0 @@
-{
-  "parent": "nesteys_cities_mod:custom/svetofor39",
-  "textures": {
-    "all": "nesteys_cities_mod:blocks/svetofor39",
-    "particle": "nesteys_cities_mod:blocks/svetofor39",
-    "0": "nesteys_cities_mod:blocks/svetofor39"
-  },
-  "render_type": "cutout"
-}
