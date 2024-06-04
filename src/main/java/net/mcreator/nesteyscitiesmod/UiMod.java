@@ -18,7 +18,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.nesteyscitiesmod.init.UiModSounds;
-import net.mcreator.nesteyscitiesmod.init.UiModPaintings;
 import net.mcreator.nesteyscitiesmod.init.UiModMenus;
 import net.mcreator.nesteyscitiesmod.init.UiModItems;
 import net.mcreator.nesteyscitiesmod.init.UiModEntities;
@@ -47,8 +46,6 @@ public class UiMod {
 		UiModItems.REGISTRY.register(bus);
 		UiModEntities.REGISTRY.register(bus);
 		UiModBlockEntities.REGISTRY.register(bus);
-
-		UiModPaintings.REGISTRY.register(bus);
 
 		UiModMenus.REGISTRY.register(bus);
 
