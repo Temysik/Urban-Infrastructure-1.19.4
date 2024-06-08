@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "1.33",
+    "name": "Sign 1.9 Drawbridge",
     "specialInformation": {
       "fixedValue": []
     },
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""

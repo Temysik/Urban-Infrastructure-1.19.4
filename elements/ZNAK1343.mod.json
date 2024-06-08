@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "1.34.3",
+    "name": "Sign 1.34.3 Direction of rotation",
     "specialInformation": {
       "fixedValue": []
     },
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
