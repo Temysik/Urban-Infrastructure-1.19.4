@@ -173,7 +173,7 @@ public class UiModTabs {
 			tabData.accept(UiModBlocks.ZNAK_130.get().asItem());
 			tabData.accept(UiModBlocks.ZNAK_131_ODIN.get().asItem());
 			tabData.accept(UiModBlocks.ZNAK_132_ODIN.get().asItem());
-			tabData.accept(UiModBlocks.ZNAK_19.get().asItem());
+			tabData.accept(UiModBlocks.ZNAK_133ODIN.get().asItem());
 			tabData.accept(UiModBlocks.ZNAK_1341.get().asItem());
 			tabData.accept(UiModBlocks.ZNAK_1342.get().asItem());
 			tabData.accept(UiModBlocks.ZNAK_1343.get().asItem());

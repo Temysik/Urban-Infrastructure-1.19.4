@@ -43,6 +43,7 @@
   "block.ui.znak_330": "Sign 3.30 Parking is prohibited on even days of the month",
   "block.ui.znak_451": "ZNAK 4.5.1",
   "block.ui.znak_457": "ZNAK 4.5.7",
+  "block.ui.znak_133odin": "Sign 1.9 Drawbridge",
   "block.ui.znak_456": "ZNAK 4.5.6",
   "block.ui.znak_455": "ZNAK 4.5.5",
   "block.ui.znak_571": "ZNAK 5.7.1",
@@ -605,5 +606,5 @@
   "block.ui.znak_18": "1.8",
   "block.ui.znak_11": "1.1",
   "block.ui.znak_12": "1.2",
-  "block.ui.znak_19": "Sign 1.9 Drawbridge"
+  "block.ui.znak_19": "1.1"
 }

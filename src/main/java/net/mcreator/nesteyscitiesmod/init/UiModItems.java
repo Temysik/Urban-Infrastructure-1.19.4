@@ -62,7 +62,7 @@ public class UiModItems {
 	public static final RegistryObject<Item> ZNAK_130 = block(UiModBlocks.ZNAK_130);
 	public static final RegistryObject<Item> ZNAK_131_ODIN = block(UiModBlocks.ZNAK_131_ODIN);
 	public static final RegistryObject<Item> ZNAK_132_ODIN = block(UiModBlocks.ZNAK_132_ODIN);
-	public static final RegistryObject<Item> ZNAK_19 = block(UiModBlocks.ZNAK_19);
+	public static final RegistryObject<Item> ZNAK_133ODIN = block(UiModBlocks.ZNAK_133ODIN);
 	public static final RegistryObject<Item> ZNAK_1341 = block(UiModBlocks.ZNAK_1341);
 	public static final RegistryObject<Item> ZNAK_1342 = block(UiModBlocks.ZNAK_1342);
 	public static final RegistryObject<Item> ZNAK_1343 = block(UiModBlocks.ZNAK_1343);

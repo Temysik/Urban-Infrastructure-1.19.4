@@ -630,7 +630,7 @@ public class UiModBlocks {
 	public static final RegistryObject<Block> ZNAK_130 = REGISTRY.register("znak_130", () -> new ZNAK130Block());
 	public static final RegistryObject<Block> ZNAK_131_ODIN = REGISTRY.register("znak_131_odin", () -> new ZNAK131ODINBlock());
 	public static final RegistryObject<Block> ZNAK_132_ODIN = REGISTRY.register("znak_132_odin", () -> new ZNAK132ODINBlock());
-	public static final RegistryObject<Block> ZNAK_19 = REGISTRY.register("znak_19", () -> new ZNAK133ODINBlock());
+	public static final RegistryObject<Block> ZNAK_133ODIN = REGISTRY.register("znak_133odin", () -> new ZNAK133ODINBlock());
 	public static final RegistryObject<Block> ZNAK_1341 = REGISTRY.register("znak_1341", () -> new ZNAK1341Block());
 	public static final RegistryObject<Block> ZNAK_1342 = REGISTRY.register("znak_1342", () -> new ZNAK1342Block());
 	public static final RegistryObject<Block> ZNAK_1343 = REGISTRY.register("znak_1343", () -> new ZNAK1343Block());
