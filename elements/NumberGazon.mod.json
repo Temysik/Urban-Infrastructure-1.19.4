@@ -1,0 +1,72 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "parcel_number.png",
+          "use1Xscale": true,
+          "x": 91,
+          "y": 16
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "number_gazon",
+          "width": 120,
+          "height": 20,
+          "x": 150,
+          "y": 73
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_prodolzhit",
+          "text": "Продолжить",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NumToOut"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 245,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_na_ghlavnoie_mieniu",
+          "text": "Главное меню",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NumToMain"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 90,
+          "y": 171
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

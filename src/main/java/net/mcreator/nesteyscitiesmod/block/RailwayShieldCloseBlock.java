@@ -4,6 +4,7 @@ package net.mcreator.nesteyscitiesmod.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -14,16 +15,22 @@ import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-public class RailwayShieldBlock extends Block {
+import net.mcreator.nesteyscitiesmod.procedures.CloseToOpenProcedure;
+
+public class RailwayShieldCloseBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public RailwayShieldBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 30f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+	public RailwayShieldCloseBlock() {
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -45,10 +52,10 @@ public class RailwayShieldBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-1, 0, -1, 18, 26, 12);
-			case NORTH -> box(-2, 0, 4, 17, 26, 17);
-			case EAST -> box(-1, 0, -2, 12, 26, 17);
-			case WEST -> box(4, 0, -1, 17, 26, 18);
+			default -> box(0, 0, 0, 17, 29, 15);
+			case NORTH -> box(-1, 0, 1, 16, 29, 16);
+			case EAST -> box(0, 0, -1, 15, 29, 16);
+			case WEST -> box(1, 0, 0, 16, 29, 17);
 		};
 	}
 
@@ -68,5 +75,19 @@ public class RailwayShieldBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	}
+
+	@Override
+	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
+		super.use(blockstate, world, pos, entity, hand, hit);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		CloseToOpenProcedure.execute(world, x, y, z);
+		return InteractionResult.SUCCESS;
 	}
 }

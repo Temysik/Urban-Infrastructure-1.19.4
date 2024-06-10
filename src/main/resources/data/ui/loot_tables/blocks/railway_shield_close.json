@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "ui:blocks/railway_shield",
+  "random_sequence": "ui:blocks/railway_shield_close",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ui:railway_shield"
+          "name": "ui:railway_shield_close"
         }
       ]
     }

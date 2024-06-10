@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "ui:custom/card",
   "textures": {
-    "layer0": "ui:item/card"
+    "0": "ui:block/card",
+    "particle": "ui:item/card"
   }
 }

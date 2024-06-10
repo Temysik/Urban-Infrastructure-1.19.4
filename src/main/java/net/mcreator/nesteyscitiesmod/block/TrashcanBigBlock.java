@@ -66,10 +66,10 @@ public class TrashcanBigBlock extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-5, 0, -4, 18, 29, 18);
-			case NORTH -> box(-2, 0, -2, 21, 29, 20);
-			case EAST -> box(-4, 0, -2, 18, 29, 21);
-			case WEST -> box(-2, 0, -5, 20, 29, 18);
+			default -> box(0, 0, 0, 17, 17, 17);
+			case NORTH -> box(-1, 0, -1, 16, 17, 16);
+			case EAST -> box(0, 0, -1, 17, 17, 16);
+			case WEST -> box(-1, 0, 0, 16, 17, 17);
 		};
 	}
 

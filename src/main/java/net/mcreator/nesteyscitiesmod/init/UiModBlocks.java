@@ -505,7 +505,7 @@ import net.mcreator.nesteyscitiesmod.block.SpeedBumpBlock;
 import net.mcreator.nesteyscitiesmod.block.SignmetroBlock;
 import net.mcreator.nesteyscitiesmod.block.ShieldTrainFenceBlock;
 import net.mcreator.nesteyscitiesmod.block.RailwayShieldOpenBlock;
-import net.mcreator.nesteyscitiesmod.block.RailwayShieldBlock;
+import net.mcreator.nesteyscitiesmod.block.RailwayShieldCloseBlock;
 import net.mcreator.nesteyscitiesmod.block.Radiator2Block;
 import net.mcreator.nesteyscitiesmod.block.PostamatOzonBlock;
 import net.mcreator.nesteyscitiesmod.block.Porebrik3Block;
@@ -1139,7 +1139,6 @@ public class UiModBlocks {
 	public static final RegistryObject<Block> WALKEN_ZEBRA = REGISTRY.register("walken_zebra", () -> new WalkenZebraBlock());
 	public static final RegistryObject<Block> TV_STATION_SHOW_TRAIN = REGISTRY.register("tv_station_show_train", () -> new TVStationShowTrainBlock());
 	public static final RegistryObject<Block> STATION_SIGN = REGISTRY.register("station_sign", () -> new StationSignBlock());
-	public static final RegistryObject<Block> RAILWAY_SHIELD = REGISTRY.register("railway_shield", () -> new RailwayShieldBlock());
 	public static final RegistryObject<Block> MARKUPBEFOREWAYS = REGISTRY.register("markupbeforeways", () -> new MarkupbeforewaysBlock());
 	public static final RegistryObject<Block> IRONFENCE = REGISTRY.register("ironfence", () -> new IronfenceBlock());
 	public static final RegistryObject<Block> POLE_PARKING = REGISTRY.register("pole_parking", () -> new PoleParkingBlock());
@@ -1147,7 +1146,6 @@ public class UiModBlocks {
 	public static final RegistryObject<Block> SPEED_BUMP = REGISTRY.register("speed_bump", () -> new SpeedBumpBlock());
 	public static final RegistryObject<Block> WATER_FILLING_RED = REGISTRY.register("water_filling_red", () -> new WaterFillingRedBlock());
 	public static final RegistryObject<Block> WATER_FILLING_BARRIERWHITE = REGISTRY.register("water_filling_barrierwhite", () -> new WaterFillingBarrierwhiteBlock());
-	public static final RegistryObject<Block> RAILWAY_SHIELD_OPEN = REGISTRY.register("railway_shield_open", () -> new RailwayShieldOpenBlock());
 	public static final RegistryObject<Block> BOTTLE_777 = REGISTRY.register("bottle_777", () -> new Bottle777Block());
 	public static final RegistryObject<Block> TRAFFICLIGHT_TRAINS = REGISTRY.register("trafficlight_trains", () -> new TrafficlightTrainsBlock());
 	public static final RegistryObject<Block> TRASH_CAN_STREET = REGISTRY.register("trash_can_street", () -> new TrashCanStreetBlock());
@@ -1162,6 +1160,8 @@ public class UiModBlocks {
 	public static final RegistryObject<Block> RADIATOR_2 = REGISTRY.register("radiator_2", () -> new Radiator2Block());
 	public static final RegistryObject<Block> SHIELD_TRAIN_FENCE = REGISTRY.register("shield_train_fence", () -> new ShieldTrainFenceBlock());
 	public static final RegistryObject<Block> LAPTOP = REGISTRY.register("laptop", () -> new LaptopBlock());
+	public static final RegistryObject<Block> RAILWAY_SHIELD_CLOSE = REGISTRY.register("railway_shield_close", () -> new RailwayShieldCloseBlock());
+	public static final RegistryObject<Block> RAILWAY_SHIELD_OPEN = REGISTRY.register("railway_shield_open", () -> new RailwayShieldOpenBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

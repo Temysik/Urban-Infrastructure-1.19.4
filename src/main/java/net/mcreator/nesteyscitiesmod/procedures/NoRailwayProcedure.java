@@ -10,9 +10,9 @@ public class NoRailwayProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(UiModBlocks.LAPTOP.get())) : false) {
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(UiModBlocks.RAILWAY_SHIELD_OPEN.get())) : false) {
 			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(UiModBlocks.LAPTOP.get());
+				ItemStack _stktoremove = new ItemStack(UiModBlocks.RAILWAY_SHIELD_OPEN.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 		}

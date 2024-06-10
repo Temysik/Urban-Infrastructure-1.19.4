@@ -571,7 +571,6 @@ public class UiModItems {
 	public static final RegistryObject<Item> WALKEN_ZEBRA = block(UiModBlocks.WALKEN_ZEBRA);
 	public static final RegistryObject<Item> TV_STATION_SHOW_TRAIN = block(UiModBlocks.TV_STATION_SHOW_TRAIN);
 	public static final RegistryObject<Item> STATION_SIGN = block(UiModBlocks.STATION_SIGN);
-	public static final RegistryObject<Item> RAILWAY_SHIELD = block(UiModBlocks.RAILWAY_SHIELD);
 	public static final RegistryObject<Item> MARKUPBEFOREWAYS = block(UiModBlocks.MARKUPBEFOREWAYS);
 	public static final RegistryObject<Item> IRONFENCE = block(UiModBlocks.IRONFENCE);
 	public static final RegistryObject<Item> POLE_PARKING = block(UiModBlocks.POLE_PARKING);
@@ -579,7 +578,6 @@ public class UiModItems {
 	public static final RegistryObject<Item> SPEED_BUMP = block(UiModBlocks.SPEED_BUMP);
 	public static final RegistryObject<Item> WATER_FILLING_RED = block(UiModBlocks.WATER_FILLING_RED);
 	public static final RegistryObject<Item> WATER_FILLING_BARRIERWHITE = block(UiModBlocks.WATER_FILLING_BARRIERWHITE);
-	public static final RegistryObject<Item> RAILWAY_SHIELD_OPEN = block(UiModBlocks.RAILWAY_SHIELD_OPEN);
 	public static final RegistryObject<Item> SMARTPHONE = REGISTRY.register("smartphone", () -> new SmartphoneItem());
 	public static final RegistryObject<Item> BOTTLE_777 = block(UiModBlocks.BOTTLE_777);
 	public static final RegistryObject<Item> TRAFFICLIGHT_TRAINS = block(UiModBlocks.TRAFFICLIGHT_TRAINS);
@@ -598,6 +596,8 @@ public class UiModItems {
 	public static final RegistryObject<Item> SCHEMA_ITEM = REGISTRY.register("schema_item", () -> new SchemaItemItem());
 	public static final RegistryObject<Item> MONEY = REGISTRY.register("money", () -> new MoneyItem());
 	public static final RegistryObject<Item> CARD = REGISTRY.register("card", () -> new CardItem());
+	public static final RegistryObject<Item> RAILWAY_SHIELD_CLOSE = block(UiModBlocks.RAILWAY_SHIELD_CLOSE);
+	public static final RegistryObject<Item> RAILWAY_SHIELD_OPEN = block(UiModBlocks.RAILWAY_SHIELD_OPEN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,5 +1,5 @@
 {
-  "parent": "ui:block/railway_shield",
+  "parent": "ui:block/railway_shield_close",
   "display": {
     "thirdperson": {
       "rotation": [

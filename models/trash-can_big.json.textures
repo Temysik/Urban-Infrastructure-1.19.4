@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "trash-can_big_texture"
+        "0": "trash-can_big_without_texture"
       },
       "name": "default"
     }

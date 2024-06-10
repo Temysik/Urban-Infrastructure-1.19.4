@@ -19,6 +19,9 @@ import net.mcreator.nesteyscitiesmod.world.inventory.SmartphoneHomapageGUIMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.SmartphoneContactsGUIMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.SchemTrainOporaMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.SchemMainMenuMenu;
+import net.mcreator.nesteyscitiesmod.world.inventory.OutputGazonMenu;
+import net.mcreator.nesteyscitiesmod.world.inventory.NumberGazonMenu;
+import net.mcreator.nesteyscitiesmod.world.inventory.MainMenuGazonMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.MailboxGUIMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.LaptopMainMenuGUIMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.GUIMoneyMenu;
@@ -41,4 +44,7 @@ public class UiModMenus {
 	public static final RegistryObject<MenuType<SchemMainMenuMenu>> SCHEM_MAIN_MENU = REGISTRY.register("schem_main_menu", () -> IForgeMenuType.create(SchemMainMenuMenu::new));
 	public static final RegistryObject<MenuType<SchemTrainOporaMenu>> SCHEM_TRAIN_OPORA = REGISTRY.register("schem_train_opora", () -> IForgeMenuType.create(SchemTrainOporaMenu::new));
 	public static final RegistryObject<MenuType<GUIMoneyMenu>> GUI_MONEY = REGISTRY.register("gui_money", () -> IForgeMenuType.create(GUIMoneyMenu::new));
+	public static final RegistryObject<MenuType<NumberGazonMenu>> NUMBER_GAZON = REGISTRY.register("number_gazon", () -> IForgeMenuType.create(NumberGazonMenu::new));
+	public static final RegistryObject<MenuType<OutputGazonMenu>> OUTPUT_GAZON = REGISTRY.register("output_gazon", () -> IForgeMenuType.create(OutputGazonMenu::new));
+	public static final RegistryObject<MenuType<MainMenuGazonMenu>> MAIN_MENU_GAZON = REGISTRY.register("main_menu_gazon", () -> IForgeMenuType.create(MainMenuGazonMenu::new));
 }

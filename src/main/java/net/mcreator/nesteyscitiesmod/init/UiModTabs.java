@@ -607,7 +607,6 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.MANEVERLIGHT.get().asItem());
 					tabData.accept(UiModBlocks.TV_STATION_SHOW_TRAIN.get().asItem());
 					tabData.accept(UiModBlocks.STATION_SIGN.get().asItem());
-					tabData.accept(UiModBlocks.RAILWAY_SHIELD.get().asItem());
 					tabData.accept(UiModBlocks.MARKUPBEFOREWAYS.get().asItem());
 					tabData.accept(UiModBlocks.TRAFFICLIGHT_TRAINS.get().asItem());
 					tabData.accept(UiModBlocks.BALKA_1.get().asItem());
@@ -616,6 +615,8 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.STOLB_3_OPORA.get().asItem());
 					tabData.accept(UiModBlocks.STOLB_1_OPORA.get().asItem());
 					tabData.accept(UiModBlocks.SHIELD_TRAIN_FENCE.get().asItem());
+					tabData.accept(UiModBlocks.RAILWAY_SHIELD_CLOSE.get().asItem());
+					tabData.accept(UiModBlocks.RAILWAY_SHIELD_OPEN.get().asItem());
 				})
 
 		);

@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "trash-can_big_texture",
+    "texture": "trash-can_big_without_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,12 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -2.0,
+        "mx": -1.0,
         "my": 0.0,
-        "mz": -2.0,
-        "Mx": 21.0,
-        "My": 29.0,
-        "Mz": 20.0,
+        "mz": -1.0,
+        "Mx": 16.0,
+        "My": 17.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],

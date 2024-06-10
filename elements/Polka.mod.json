@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "shelf:default",
+    "customModelName": "shelf_without:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -24,57 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -16.0,
-        "my": 4.0,
-        "mz": 0.0,
-        "Mx": 32.0,
-        "My": 6.0,
-        "Mz": 26.0,
-        "subtract": false
-      },
-      {
-        "mx": -16.0,
-        "my": 3.17157,
-        "mz": -2.0,
-        "Mx": 32.0,
-        "My": 5.17157,
-        "Mz": 2.0,
-        "subtract": false
-      },
-      {
-        "mx": -16.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 20.0,
-        "Mx": -14.0,
-        "My": 2.0,
-        "Mz": 26.0,
-        "subtract": false
-      },
-      {
-        "mx": -16.0,
-        "my": 2.0,
-        "mz": 12.0,
-        "Mx": -14.0,
-        "My": 4.0,
-        "Mz": 26.0,
-        "subtract": false
-      },
-      {
-        "mx": 30.0,
-        "my": 0.0,
-        "mz": 20.0,
-        "Mx": 32.0,
-        "My": 2.0,
-        "Mz": 26.0,
-        "subtract": false
-      },
-      {
-        "mx": 30.0,
-        "my": 2.0,
-        "mz": 12.0,
-        "Mx": 32.0,
-        "My": 4.0,
-        "Mz": 26.0,
+        "mz": 9.0,
+        "Mx": 15.0,
+        "My": 5.0,
+        "Mz": 31.0,
         "subtract": false
       }
     ],

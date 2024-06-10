@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "shelf_shop_texture"
+        "2": "shelf_shop_without_texture"
       },
       "name": "default"
     }

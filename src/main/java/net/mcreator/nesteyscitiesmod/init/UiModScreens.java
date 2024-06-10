@@ -19,6 +19,9 @@ import net.mcreator.nesteyscitiesmod.client.gui.SmartphoneHomapageGUIScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.SmartphoneContactsGUIScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.SchemTrainOporaScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.SchemMainMenuScreen;
+import net.mcreator.nesteyscitiesmod.client.gui.OutputGazonScreen;
+import net.mcreator.nesteyscitiesmod.client.gui.NumberGazonScreen;
+import net.mcreator.nesteyscitiesmod.client.gui.MainMenuGazonScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.MailboxGUIScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.LaptopMainMenuGUIScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.GUIMoneyScreen;
@@ -43,6 +46,9 @@ public class UiModScreens {
 			MenuScreens.register(UiModMenus.SCHEM_MAIN_MENU.get(), SchemMainMenuScreen::new);
 			MenuScreens.register(UiModMenus.SCHEM_TRAIN_OPORA.get(), SchemTrainOporaScreen::new);
 			MenuScreens.register(UiModMenus.GUI_MONEY.get(), GUIMoneyScreen::new);
+			MenuScreens.register(UiModMenus.NUMBER_GAZON.get(), NumberGazonScreen::new);
+			MenuScreens.register(UiModMenus.OUTPUT_GAZON.get(), OutputGazonScreen::new);
+			MenuScreens.register(UiModMenus.MAIN_MENU_GAZON.get(), MainMenuGazonScreen::new);
 		});
 	}
 }

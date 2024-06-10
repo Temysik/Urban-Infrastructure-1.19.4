@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "railway_shield_open_texture",
+    "texture": "railway-shield_open_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,21 +24,21 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -2.0,
+        "mx": -1.0,
         "my": 0.0,
-        "mz": 4.0,
-        "Mx": 17.0,
-        "My": 26.0,
-        "Mz": 17.0,
+        "mz": 1.0,
+        "Mx": 16.0,
+        "My": 29.0,
+        "Mz": 16.0,
         "subtract": false
       },
       {
-        "mx": -2.0,
-        "my": 0.0,
-        "mz": 4.0,
-        "Mx": 7.0,
-        "My": 26.0,
-        "Mz": 8.0,
+        "mx": 0.0,
+        "my": 2.0,
+        "mz": 0.0,
+        "Mx": 5.0,
+        "My": 28.0,
+        "Mz": -12.0,
         "subtract": false
       }
     ],
@@ -47,11 +47,11 @@
       "fixedValue": []
     },
     "hardness": 1.0,
-    "resistance": 30.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:TransportInfrastructure"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -128,20 +128,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "CloseToOpen"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",

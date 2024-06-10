@@ -2,14 +2,14 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "railway_shield_close_texture",
+    "texture": "railway-shield_close_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "railway_shield_close:default",
+    "customModelName": "railway-shield_open:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,25 +20,25 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -2.0,
+        "mx": -1.0,
         "my": 0.0,
-        "mz": 4.0,
-        "Mx": 17.0,
-        "My": 26.0,
-        "Mz": 17.0,
+        "mz": 1.0,
+        "Mx": 16.0,
+        "My": 29.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Railway Shield",
+    "name": "Railway Shield Close",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 1.0,
-    "resistance": 30.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -119,20 +119,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "CloseToOpen"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",

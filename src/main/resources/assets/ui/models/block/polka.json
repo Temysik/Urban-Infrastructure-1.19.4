@@ -1,9 +1,9 @@
 {
-  "parent": "ui:custom/shelf",
+  "parent": "ui:custom/shelf_without",
   "textures": {
     "all": "ui:block/shelf_shop_texture",
     "particle": "ui:block/shelf_shop_texture",
-    "1": "ui:block/shelf_shop_texture"
+    "2": "ui:block/shelf_shop_without_texture"
   },
   "render_type": "cutout"
 }

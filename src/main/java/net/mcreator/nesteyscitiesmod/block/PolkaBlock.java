@@ -45,10 +45,10 @@ public class PolkaBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(-16, 4, -10, 32, 6, 16), box(-16, 3.17157, 14, 32, 5.17157, 18), box(30, 0, -10, 32, 2, -4), box(30, 2, -10, 32, 4, 4), box(-16, 0, -10, -14, 2, -4), box(-16, 2, -10, -14, 4, 4));
-			case NORTH -> Shapes.or(box(-16, 4, 0, 32, 6, 26), box(-16, 3.17157, -2, 32, 5.17157, 2), box(-16, 0, 20, -14, 2, 26), box(-16, 2, 12, -14, 4, 26), box(30, 0, 20, 32, 2, 26), box(30, 2, 12, 32, 4, 26));
-			case EAST -> Shapes.or(box(-10, 4, -16, 16, 6, 32), box(14, 3.17157, -16, 18, 5.17157, 32), box(-10, 0, -16, -4, 2, -14), box(-10, 2, -16, 4, 4, -14), box(-10, 0, 30, -4, 2, 32), box(-10, 2, 30, 4, 4, 32));
-			case WEST -> Shapes.or(box(0, 4, -16, 26, 6, 32), box(-2, 3.17157, -16, 2, 5.17157, 32), box(20, 0, 30, 26, 2, 32), box(12, 2, 30, 26, 4, 32), box(20, 0, -16, 26, 2, -14), box(12, 2, -16, 26, 4, -14));
+			default -> box(1, 0, -15, 16, 5, 7);
+			case NORTH -> box(0, 0, 9, 15, 5, 31);
+			case EAST -> box(-15, 0, 0, 7, 5, 15);
+			case WEST -> box(9, 0, 1, 31, 5, 16);
 		};
 	}
 

@@ -2,7 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "railway_shield_open_texture"
+        "0": "railway-shield_open_texture",
+        "1": "item-in-shield_texture"
       },
       "name": "default"
     }

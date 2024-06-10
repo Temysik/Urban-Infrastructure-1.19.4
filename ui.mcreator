@@ -9695,6 +9695,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/nesteyscitiesmod/block/PostamatOzonBlock.java",
+          "src/main/java/net/mcreator/nesteyscitiesmod/block/entity/PostamatOzonBlockEntity.java",
           "src/main/resources/assets/ui/models/item/postamat_ozon.json",
           "src/main/resources/assets/ui/blockstates/postamat_ozon.json",
           "src/main/resources/assets/ui/models/block/postamat_ozon.json",
@@ -9993,24 +9994,6 @@
       "path": "~/Transport Infrastructure"
     },
     {
-      "name": "RailwayShield",
-      "type": "block",
-      "sortid": 558,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "railway_shield",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/ui/models/block/railway_shield.json",
-          "src/main/java/net/mcreator/nesteyscitiesmod/block/RailwayShieldBlock.java",
-          "src/main/resources/data/ui/loot_tables/blocks/railway_shield.json",
-          "src/main/resources/assets/ui/models/item/railway_shield.json",
-          "src/main/resources/assets/ui/blockstates/railway_shield.json"
-        ]
-      },
-      "path": "~/Transport Infrastructure"
-    },
-    {
       "name": "Markupbeforeways",
       "type": "block",
       "sortid": 559,
@@ -10135,23 +10118,6 @@
         ]
       },
       "path": "~/Roadinfrastructure"
-    },
-    {
-      "name": "RailwayShieldOpen",
-      "type": "block",
-      "sortid": 584,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "railway_shield_open",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/ui/models/block/railway_shield_open.json",
-          "src/main/resources/assets/ui/models/item/railway_shield_open.json",
-          "src/main/resources/assets/ui/blockstates/railway_shield_open.json",
-          "src/main/resources/data/ui/loot_tables/blocks/railway_shield_open.json",
-          "src/main/java/net/mcreator/nesteyscitiesmod/block/RailwayShieldOpenBlock.java"
-        ]
-      }
     },
     {
       "name": "Items",
@@ -11352,6 +11318,229 @@
         ]
       },
       "path": "~/Procedurec/NoBlock"
+    },
+    {
+      "name": "NumberGazon",
+      "type": "gui",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "number_gazon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/world/inventory/NumberGazonMenu.java",
+          "src/main/java/net/mcreator/nesteyscitiesmod/client/gui/NumberGazonScreen.java",
+          "src/main/java/net/mcreator/nesteyscitiesmod/network/NumberGazonButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI/Parcel"
+    },
+    {
+      "name": "OutputGazon",
+      "type": "gui",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "output_gazon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/client/gui/OutputGazonScreen.java",
+          "src/main/java/net/mcreator/nesteyscitiesmod/world/inventory/OutputGazonMenu.java"
+        ]
+      },
+      "path": "~/GUI/Parcel"
+    },
+    {
+      "name": "MainMenuGazon",
+      "type": "gui",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_menu_gazon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/network/MainMenuGazonButtonMessage.java",
+          "src/main/java/net/mcreator/nesteyscitiesmod/world/inventory/MainMenuGazonMenu.java",
+          "src/main/java/net/mcreator/nesteyscitiesmod/client/gui/MainMenuGazonScreen.java"
+        ]
+      },
+      "path": "~/GUI/Parcel"
+    },
+    {
+      "name": "MainToNum",
+      "type": "procedure",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_to_num",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/procedures/MainToNumProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/Produrec/Gazon"
+    },
+    {
+      "name": "NumToOut",
+      "type": "procedure",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "num_to_out",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/procedures/NumToOutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/Produrec/Gazon"
+    },
+    {
+      "name": "NumToMain",
+      "type": "procedure",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "num_to_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/procedures/NumToMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/Produrec/Gazon"
+    },
+    {
+      "name": "RailwayShieldClose",
+      "type": "block",
+      "sortid": 694,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railway_shield_close",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ui/models/block/railway_shield_close.json",
+          "src/main/resources/assets/ui/blockstates/railway_shield_close.json",
+          "src/main/java/net/mcreator/nesteyscitiesmod/block/RailwayShieldCloseBlock.java",
+          "src/main/resources/assets/ui/models/item/railway_shield_close.json",
+          "src/main/resources/data/ui/loot_tables/blocks/railway_shield_close.json"
+        ]
+      },
+      "path": "~/2_Static_Block"
+    },
+    {
+      "name": "RailwayShieldOpen",
+      "type": "block",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railway_shield_open",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ui/models/block/railway_shield_open.json",
+          "src/main/resources/assets/ui/models/item/railway_shield_open.json",
+          "src/main/resources/assets/ui/blockstates/railway_shield_open.json",
+          "src/main/resources/data/ui/loot_tables/blocks/railway_shield_open.json",
+          "src/main/java/net/mcreator/nesteyscitiesmod/block/RailwayShieldOpenBlock.java"
+        ]
+      },
+      "path": "~/2_Static_Block"
+    },
+    {
+      "name": "CloseToOpen",
+      "type": "procedure",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_to_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nesteyscitiesmod/procedures/CloseToOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/2_Static_Block"
     }
   ],
   "variable_elements": [
@@ -11498,7 +11687,6 @@
       "block.ui.znak_462": "Знак 4.6.2 Ограничение минимальной скорости",
       "block.ui.znak_461": "Знак 4.6.1 Ограничение минимальной скорости",
       "block.ui.bottle_777": "Бутылка",
-      "block.ui.railway_shield": "Релейний шкаф",
       "block.ui.znak_333": "Знак 3.33 The movement of vehicles with explosive and flammable goods is prohibited",
       "block.ui.znak_454": "Знак 4.5.4 Пешеходная и велосипедная дорожка с разделением движения",
       "block.ui.znak_453": "Знак 4.5.3 Конец пешеходной и велосипедной дорожки с совмещенным движением (конец велопешеходной дорожки с совмещенным движением)",
@@ -11510,10 +11698,12 @@
       "block.ui.znak_451": "Знак 4.5.1 Пешеходная дорожка",
       "block.ui.znak_457": "Знак 4.5.7 Конец пешеходной и велосипедной дорожки с разделением движения (конец велопешеходной дорожки с разделением движения)",
       "block.ui.znak_133odin": "Знак 1.33 Прочие опасности",
+      "block.ui.railway_shield_close": "Railway Shield Close",
       "block.ui.znak_456": "Знак 4.5.6 Конец пешеходной и велосипедной дорожки с разделением движения (конец велопешеходной дорожки с разделением движения)",
       "block.ui.znak_455": "Знак 4.5.5 Пешеходная и велосипедная дорожка с разделением движения",
       "block.ui.znak_571": "ZNAK 5.7.1",
       "block.ui.markupbeforeways": "Разметка",
+      "gui.ui.number_gazon.button_na_ghlavnoie_mieniu": "Главное меню",
       "block.ui.znak_322": "Знак 3.22 Overtaking by a truck is prohibited",
       "block.ui.znak_321": "Знак 3.21 The end of the overtaking prohibition zone",
       "block.ui.znak_442": "Знак 4.4.2 Конец велосипедной дорожки",
@@ -11597,6 +11787,7 @@
       "block.ui.znak_522": "ZNAK 5.22",
       "block.ui.znak_521": "ZNAK 5.21",
       "block.ui.intercomdomru": "Домофон",
+      "gui.ui.number_gazon.button_prodolzhit": "Продолжить",
       "block.ui.znak_528": "ZNAK 5.28",
       "block.ui.znak_527": "ZNAK 5.27",
       "gui.ui.gui_money.label_u_vas_bnbtnumbertagname": "У вас: \u003cVAR:Money\u003e",
@@ -11703,7 +11894,7 @@
       "block.ui.znak_3132": "Знак 3.13.2 Height restriction",
       "block.ui.znak_5311": "ZNAK 5.31.1",
       "block.ui.znak_3254": "Знак 3.25.4 End of the maximum speed limit zone 70",
-      "block.ui.railway_shield_open": "",
+      "block.ui.railway_shield_open": "Railway Shield Open",
       "block.ui.znak_3131": "Знак 3.13.1 Height restriction",
       "block.ui.znak_5312": "ZNAK 5.31.2",
       "block.ui.znak_3255": "Знак 3.25.5 End of the maximum speed limit zone 90",
@@ -11738,6 +11929,7 @@
       "block.ui.temporarymark_20": "Временная разметка 20",
       "block.ui.temporarymark_21": "Временная разметка 21",
       "block.ui.temporarymark_1": "Временная разметка 1",
+      "gui.ui.main_menu_gazon.button_poluchit_zakaz": "Получить заказ",
       "block.ui.ostanovka_1": "Остановка",
       "block.ui.postamat_ozon": "Постамат Озон",
       "block.ui.temporarymark_9": "Временная разметка 9",
@@ -11810,6 +12002,7 @@
       "block.ui.znak_71": "ZNAK 7.1",
       "block.ui.znak_72": "ZNAK 7.2",
       "block.ui.cup": "Стакан",
+      "gui.ui.number_gazon.number_gazon": "",
       "block.ui.znak_5133": "ZNAK 5.13.3",
       "block.ui.znak_5134": "ZNAK 5.13.4",
       "block.ui.znak_5131": "ZNAK 5.13.1",
@@ -12108,7 +12301,6 @@
       "block.ui.znak_462": "ZNAK 4.6.2",
       "block.ui.znak_461": "ZNAK 4.6.1",
       "block.ui.bottle_777": "Bottle 777",
-      "block.ui.railway_shield": "Railway Shield",
       "block.ui.znak_333": "Sign 3.33 The movement of vehicles with explosive and flammable goods is prohibited",
       "block.ui.znak_454": "ZNAK 4.5.4",
       "block.ui.znak_453": "ZNAK 4.5.3",
@@ -12120,10 +12312,12 @@
       "block.ui.znak_451": "ZNAK 4.5.1",
       "block.ui.znak_457": "ZNAK 4.5.7",
       "block.ui.znak_133odin": "Sign 1.9 Drawbridge",
+      "block.ui.railway_shield_close": "Railway Shield Close",
       "block.ui.znak_456": "ZNAK 4.5.6",
       "block.ui.znak_455": "ZNAK 4.5.5",
       "block.ui.znak_571": "ZNAK 5.7.1",
       "block.ui.markupbeforeways": "Markup before ways",
+      "gui.ui.number_gazon.button_na_ghlavnoie_mieniu": "Главное меню",
       "block.ui.znak_322": "Sign 3.22 Overtaking by a truck is prohibited",
       "block.ui.znak_321": "Sign 3.21 The end of the overtaking prohibition zone",
       "block.ui.znak_442": "ZNAK 4.4.2",
@@ -12207,6 +12401,7 @@
       "block.ui.znak_522": "ZNAK 5.22",
       "block.ui.znak_521": "ZNAK 5.21",
       "block.ui.intercomdomru": "Intercom domru",
+      "gui.ui.number_gazon.button_prodolzhit": "Продолжить",
       "block.ui.znak_528": "ZNAK 5.28",
       "block.ui.znak_527": "ZNAK 5.27",
       "gui.ui.gui_money.label_u_vas_bnbtnumbertagname": "У вас: \u003cVAR:Money\u003e",
@@ -12348,6 +12543,7 @@
       "block.ui.temporarymark_20": "TEMPORARYMARK 20",
       "block.ui.temporarymark_21": "TEMPORARYMARK 21",
       "block.ui.temporarymark_1": "TEMPORARYMARK 1",
+      "gui.ui.main_menu_gazon.button_poluchit_zakaz": "Получить заказ",
       "block.ui.ostanovka_1": "Ostanovka1",
       "block.ui.postamat_ozon": "Parcel Automat Ozon",
       "block.ui.temporarymark_9": "TEMPORARYMARK 9",
@@ -12420,6 +12616,7 @@
       "block.ui.znak_71": "ZNAK 7.1",
       "block.ui.znak_72": "ZNAK 7.2",
       "block.ui.cup": "Cup",
+      "gui.ui.number_gazon.number_gazon": "",
       "block.ui.znak_5133": "ZNAK 5.13.3",
       "block.ui.znak_5134": "ZNAK 5.13.4",
       "block.ui.znak_5131": "ZNAK 5.13.1",
@@ -12747,6 +12944,19 @@
           {
             "name": "Schema",
             "children": []
+          },
+          {
+            "name": "Parcel",
+            "children": []
+          },
+          {
+            "name": "Produrec",
+            "children": [
+              {
+                "name": "Gazon",
+                "children": []
+              }
+            ]
           }
         ]
       },
