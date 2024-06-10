@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "railway-shield_open:default",
+    "customModelName": "railway-shield_close:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

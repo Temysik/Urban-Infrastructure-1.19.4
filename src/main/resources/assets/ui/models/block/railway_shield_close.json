@@ -1,10 +1,9 @@
 {
-  "parent": "ui:custom/railway-shield_open",
+  "parent": "ui:custom/railway-shield_close",
   "textures": {
     "all": "ui:block/railway-shield_close_texture",
     "particle": "ui:block/railway-shield_close_texture",
-    "0": "ui:block/railway-shield_open_texture",
-    "1": "ui:block/item-in-shield_texture"
+    "0": "ui:block/railway-shield_close_texture"
   },
   "render_type": "cutout_mipped"
 }
