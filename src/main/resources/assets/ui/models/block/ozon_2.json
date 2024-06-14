@@ -1,8 +1,8 @@
 {
   "parent": "ui:custom/ozon2",
   "textures": {
-    "all": "ui:block/ozon2",
-    "particle": "ui:block/ozon2",
+    "all": "ui:block/ozon2_texture",
+    "particle": "ui:block/ozon2_texture",
     "1": "ui:block/ozon2"
   },
   "render_type": "cutout"

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "ozon1"
+        "1": "ozon1_texture"
       },
       "name": "default"
     }

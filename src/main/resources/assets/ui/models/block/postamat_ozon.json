@@ -1,9 +1,9 @@
 {
   "parent": "ui:custom/parcel-automat_ozon",
   "textures": {
-    "all": "ui:block/parcel-automat_ozon_texture",
-    "particle": "ui:block/parcel-automat_ozon_texture",
-    "0": "ui:block/parcel-automat_ozon_texture"
+    "all": "ui:block/parcel-automat_gazon_texture",
+    "particle": "ui:block/parcel-automat_gazon_texture",
+    "0": "ui:block/parcel-automat_gazon_texture"
   },
   "render_type": "cutout"
 }
