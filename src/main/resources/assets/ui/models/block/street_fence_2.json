@@ -3,7 +3,7 @@
   "textures": {
     "all": "ui:block/street-fence_2_texture",
     "particle": "ui:block/street-fence_2_texture",
-    "1": "ui:block/street-fence_2_texture"
+    "0": "ui:block/street-fence_2_texture"
   },
   "render_type": "translucent"
 }

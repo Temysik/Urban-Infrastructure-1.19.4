@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "street-fence_2_texture"
+        "0": "street-fence_2_texture"
       },
       "name": "default"
     }

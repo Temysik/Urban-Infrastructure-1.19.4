@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "ogr",
+    "texture": "ogr_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",

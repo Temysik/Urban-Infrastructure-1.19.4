@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "stolb1",
-        "missing": "stolb1"
+        "0": "electric_shield_on_stolb_texture"
       },
       "name": "default"
     }

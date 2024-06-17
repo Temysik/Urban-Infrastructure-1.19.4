@@ -616,7 +616,6 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.STOLB_1_OPORA.get().asItem());
 					tabData.accept(UiModBlocks.SHIELD_TRAIN_FENCE.get().asItem());
 					tabData.accept(UiModBlocks.RAILWAY_SHIELD_CLOSE.get().asItem());
-					tabData.accept(UiModBlocks.RAILWAY_SHIELD_OPEN.get().asItem());
 				})
 
 		);

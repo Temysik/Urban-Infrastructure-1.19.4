@@ -15,8 +15,8 @@
         "data": {
           "image": "parcel_mainmenu.png",
           "use1Xscale": true,
-          "x": 87,
-          "y": 17
+          "x": 114,
+          "y": 44
         }
       },
       {
@@ -30,8 +30,8 @@
           },
           "width": 98,
           "height": 20,
-          "x": 162,
-          "y": 117
+          "x": 165,
+          "y": 125
         }
       }
     ],

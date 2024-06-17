@@ -1,9 +1,9 @@
 {
-  "parent": "ui:custom/stolb_bbmodel",
+  "parent": "ui:custom/electric-shield_on_stolb",
   "textures": {
-    "all": "ui:block/eletric_shield_on_stolb_texture",
-    "particle": "ui:block/eletric_shield_on_stolb_texture",
-    "0": "ui:block/eletric_shield_on_stolb_texture"
+    "all": "ui:block/electric_shield_on_stolb_texture",
+    "particle": "ui:block/electric_shield_on_stolb_texture",
+    "0": "ui:block/electric_shield_on_stolb_texture"
   },
   "render_type": "cutout"
 }

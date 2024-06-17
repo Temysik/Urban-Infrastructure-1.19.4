@@ -1,9 +1,9 @@
 {
   "parent": "ui:custom/konus1",
   "textures": {
-    "all": "ui:block/konus1",
-    "particle": "ui:block/konus1",
-    "0": "ui:block/konus1"
+    "all": "ui:block/konus_1_texture",
+    "particle": "ui:block/konus_1_texture",
+    "0": "ui:block/konus_1_texture"
   },
   "render_type": "cutout"
 }

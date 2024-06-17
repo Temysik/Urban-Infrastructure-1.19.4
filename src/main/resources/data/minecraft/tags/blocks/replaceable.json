@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ui:railway_shield_open",
+    "ui:railway_shield_close"
+  ]
+}

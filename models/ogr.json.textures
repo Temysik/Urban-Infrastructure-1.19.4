@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "ogr"
+        "0": "ogr_texture"
       },
       "name": "default"
     }

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "Электрический_Щиток_На-улице_texture",
-		"particle": "Электрический_Щиток_На-улице_texture"
+		"0": "electric_shield_on_street_texture",
+		"particle": "electric_shield_on_street_texture"
 	},
 	"elements": [
 		{
@@ -56,7 +56,7 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [0, -3.25, 0],
+			"translation": [1.25, -3.25, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"fixed": {

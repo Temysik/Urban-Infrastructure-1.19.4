@@ -49,7 +49,7 @@ public class OutputGazonScreen extends AbstractContainerScreen<OutputGazonMenu> 
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("ui:textures/screens/parcel_outputitem.png"));
-		this.blit(ms, this.leftPos + -127, this.topPos + -20, 0, 0, 250, 187, 250, 187);
+		this.blit(ms, this.leftPos + -100, this.topPos + 7, 0, 0, 200, 150, 200, 150);
 
 		RenderSystem.disableBlend();
 	}

@@ -57,7 +57,7 @@ public class NumberGazonScreen extends AbstractContainerScreen<NumberGazonMenu> 
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("ui:textures/screens/parcel_number.png"));
-		this.blit(ms, this.leftPos + -123, this.topPos + -21, 0, 0, 250, 188, 250, 188);
+		this.blit(ms, this.leftPos + -100, this.topPos + 7, 0, 0, 200, 150, 200, 150);
 
 		RenderSystem.disableBlend();
 	}
@@ -86,7 +86,7 @@ public class NumberGazonScreen extends AbstractContainerScreen<NumberGazonMenu> 
 	@Override
 	public void init() {
 		super.init();
-		number_gazon = new EditBox(this.font, this.leftPos + -63, this.topPos + 37, 118, 18, Component.translatable("gui.ui.number_gazon.number_gazon"));
+		number_gazon = new EditBox(this.font, this.leftPos + -59, this.topPos + 55, 118, 18, Component.translatable("gui.ui.number_gazon.number_gazon"));
 		number_gazon.setMaxLength(32767);
 		guistate.put("text:number_gazon", number_gazon);
 		this.addWidget(this.number_gazon);
@@ -95,7 +95,7 @@ public class NumberGazonScreen extends AbstractContainerScreen<NumberGazonMenu> 
 				UiMod.PACKET_HANDLER.sendToServer(new NumberGazonButtonMessage(0, x, y, z));
 				NumberGazonButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 31, this.topPos + 133, 93, 20).build();
+		}).bounds(this.leftPos + 22, this.topPos + 130, 93, 20).build();
 		guistate.put("button:button_prodolzhit", button_prodolzhit);
 		this.addRenderableWidget(button_prodolzhit);
 		button_na_ghlavnoie_mieniu = Button.builder(Component.translatable("gui.ui.number_gazon.button_na_ghlavnoie_mieniu"), e -> {
@@ -103,7 +103,7 @@ public class NumberGazonScreen extends AbstractContainerScreen<NumberGazonMenu> 
 				UiMod.PACKET_HANDLER.sendToServer(new NumberGazonButtonMessage(1, x, y, z));
 				NumberGazonButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + -124, this.topPos + 134, 103, 20).build();
+		}).bounds(this.leftPos + -131, this.topPos + 130, 103, 20).build();
 		guistate.put("button:button_na_ghlavnoie_mieniu", button_na_ghlavnoie_mieniu);
 		this.addRenderableWidget(button_na_ghlavnoie_mieniu);
 	}

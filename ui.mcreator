@@ -11651,7 +11651,12 @@
       "subtitle": ""
     }
   ],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:RailwayShieldOpen",
+      "~CUSTOM:RailwayShieldClose"
+    ]
+  },
   "language_map": {
     "ru_ru": {
       "block.ui.znak_234": "Знак 2.3.4 The junction of a secondary road",

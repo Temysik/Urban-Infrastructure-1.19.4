@@ -53,7 +53,7 @@ public class MainMenuGazonScreen extends AbstractContainerScreen<MainMenuGazonMe
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("ui:textures/screens/parcel_mainmenu.png"));
-		this.blit(ms, this.leftPos + -127, this.topPos + -20, 0, 0, 250, 196, 250, 196);
+		this.blit(ms, this.leftPos + -100, this.topPos + 7, 0, 0, 200, 159, 200, 159);
 
 		RenderSystem.disableBlend();
 	}
@@ -84,7 +84,7 @@ public class MainMenuGazonScreen extends AbstractContainerScreen<MainMenuGazonMe
 				UiMod.PACKET_HANDLER.sendToServer(new MainMenuGazonButtonMessage(0, x, y, z));
 				MainMenuGazonButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + -52, this.topPos + 80, 98, 20).build();
+		}).bounds(this.leftPos + -49, this.topPos + 88, 98, 20).build();
 		guistate.put("button:button_poluchit_zakaz", button_poluchit_zakaz);
 		this.addRenderableWidget(button_poluchit_zakaz);
 	}

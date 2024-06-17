@@ -3,7 +3,7 @@
   "textures": {
     "all": "ui:block/ozon3_texture",
     "particle": "ui:block/ozon3_texture",
-    "1": "ui:block/ozon3"
+    "1": "ui:block/ozon3_texture"
   },
   "render_type": "cutout"
 }

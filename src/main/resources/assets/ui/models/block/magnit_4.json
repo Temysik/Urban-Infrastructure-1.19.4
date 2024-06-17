@@ -1,9 +1,9 @@
 {
   "parent": "ui:custom/magnit4",
   "textures": {
-    "all": "ui:block/magnit4",
-    "particle": "ui:block/magnit4",
-    "0": "ui:block/magnit4"
+    "all": "ui:block/magnit_4_texture",
+    "particle": "ui:block/magnit_4_texture",
+    "0": "ui:block/magnit_4_texture"
   },
   "render_type": "cutout"
 }
