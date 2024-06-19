@@ -2,14 +2,14 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "curb_texture",
+    "texture": "curb1_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "curb:default",
+    "customModelName": "curb1:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,20 +20,20 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.0,
         "mz": -1.0,
-        "Mx": 31.0,
-        "My": 6.0,
-        "Mz": 3.0,
+        "Mx": 15.0,
+        "My": 2.0,
+        "Mz": 1.0,
         "subtract": false
       }
     ],
-    "name": "Curb",
+    "name": "Curb 1",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:CitiesInfrastructure"
+      "value": "CUSTOM:RoadInfrastructure"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -123,16 +123,7 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",

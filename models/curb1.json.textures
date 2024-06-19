@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "electric_shield_opened_texture"
+        "0": "curb1_texture"
       },
       "name": "default"
     }

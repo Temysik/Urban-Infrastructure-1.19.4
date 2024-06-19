@@ -555,7 +555,6 @@ public class UiModItems {
 	public static final RegistryObject<Item> STORAGEBOX = block(UiModBlocks.STORAGEBOX);
 	public static final RegistryObject<Item> BUOY = block(UiModBlocks.BUOY);
 	public static final RegistryObject<Item> HATCH = block(UiModBlocks.HATCH);
-	public static final RegistryObject<Item> CURB = block(UiModBlocks.CURB);
 	public static final RegistryObject<Item> POSTAMAT_OZON = block(UiModBlocks.POSTAMAT_OZON);
 	public static final RegistryObject<Item> SIGNMETRO = block(UiModBlocks.SIGNMETRO);
 	public static final RegistryObject<Item> STREETFENCE = block(UiModBlocks.STREETFENCE);
@@ -598,6 +597,8 @@ public class UiModItems {
 	public static final RegistryObject<Item> CARD = REGISTRY.register("card", () -> new CardItem());
 	public static final RegistryObject<Item> RAILWAY_SHIELD_CLOSE = block(UiModBlocks.RAILWAY_SHIELD_CLOSE);
 	public static final RegistryObject<Item> RAILWAY_SHIELD_OPEN = block(UiModBlocks.RAILWAY_SHIELD_OPEN);
+	public static final RegistryObject<Item> CURB_2 = block(UiModBlocks.CURB_2);
+	public static final RegistryObject<Item> CURB_1 = block(UiModBlocks.CURB_1);
 
 	// Start of user code block custom items
 	// End of user code block custom items

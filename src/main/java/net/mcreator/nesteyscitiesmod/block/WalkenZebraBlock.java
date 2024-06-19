@@ -45,10 +45,10 @@ public class WalkenZebraBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(-16, 0.5, 22, 32, 1, 32), box(-16, 0.5, 6, 32, 1, 16), box(-16, 0.5, -10, 32, 1, 0));
-			case NORTH -> Shapes.or(box(-16, 0.5, -16, 32, 1, -6), box(-16, 0.5, 0, 32, 1, 10), box(-16, 0.5, 16, 32, 1, 26));
-			case EAST -> Shapes.or(box(22, 0.5, -16, 32, 1, 32), box(6, 0.5, -16, 16, 1, 32), box(-10, 0.5, -16, 0, 1, 32));
-			case WEST -> Shapes.or(box(-16, 0.5, -16, -6, 1, 32), box(0, 0.5, -16, 10, 1, 32), box(16, 0.5, -16, 26, 1, 32));
+			default -> box(1, 0, 5, 16, 0.5, 12);
+			case NORTH -> box(0, 0, 4, 15, 0.5, 11);
+			case EAST -> box(5, 0, 0, 12, 0.5, 15);
+			case WEST -> box(4, 0, 1, 11, 0.5, 16);
 		};
 	}
 

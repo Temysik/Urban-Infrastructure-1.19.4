@@ -571,7 +571,8 @@ import net.mcreator.nesteyscitiesmod.block.ExitableLightStolbBlock;
 import net.mcreator.nesteyscitiesmod.block.ExitableLightBlock;
 import net.mcreator.nesteyscitiesmod.block.ElectricShieldOnStreetBlock;
 import net.mcreator.nesteyscitiesmod.block.ElectricShieldOnStolbBlock;
-import net.mcreator.nesteyscitiesmod.block.CurbBlock;
+import net.mcreator.nesteyscitiesmod.block.Curb2Block;
+import net.mcreator.nesteyscitiesmod.block.Curb1Block;
 import net.mcreator.nesteyscitiesmod.block.CupBlock;
 import net.mcreator.nesteyscitiesmod.block.ConditionerBlock;
 import net.mcreator.nesteyscitiesmod.block.CassaComputerBlock;
@@ -1123,7 +1124,6 @@ public class UiModBlocks {
 	public static final RegistryObject<Block> STORAGEBOX = REGISTRY.register("storagebox", () -> new StorageboxBlock());
 	public static final RegistryObject<Block> BUOY = REGISTRY.register("buoy", () -> new BuoyBlock());
 	public static final RegistryObject<Block> HATCH = REGISTRY.register("hatch", () -> new HatchBlock());
-	public static final RegistryObject<Block> CURB = REGISTRY.register("curb", () -> new CurbBlock());
 	public static final RegistryObject<Block> POSTAMAT_OZON = REGISTRY.register("postamat_ozon", () -> new PostamatOzonBlock());
 	public static final RegistryObject<Block> SIGNMETRO = REGISTRY.register("signmetro", () -> new SignmetroBlock());
 	public static final RegistryObject<Block> STREETFENCE = REGISTRY.register("streetfence", () -> new StreetfenceBlock());
@@ -1162,6 +1162,8 @@ public class UiModBlocks {
 	public static final RegistryObject<Block> LAPTOP = REGISTRY.register("laptop", () -> new LaptopBlock());
 	public static final RegistryObject<Block> RAILWAY_SHIELD_CLOSE = REGISTRY.register("railway_shield_close", () -> new RailwayShieldCloseBlock());
 	public static final RegistryObject<Block> RAILWAY_SHIELD_OPEN = REGISTRY.register("railway_shield_open", () -> new RailwayShieldOpenBlock());
+	public static final RegistryObject<Block> CURB_2 = REGISTRY.register("curb_2", () -> new Curb2Block());
+	public static final RegistryObject<Block> CURB_1 = REGISTRY.register("curb_1", () -> new Curb1Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

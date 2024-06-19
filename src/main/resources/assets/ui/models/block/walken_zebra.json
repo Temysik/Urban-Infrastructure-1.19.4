@@ -1,9 +1,9 @@
 {
-  "parent": "ui:custom/walken_zebra",
+  "parent": "ui:custom/walken-zebra",
   "textures": {
-    "all": "ui:block/walken_zebra_texture",
-    "particle": "ui:block/walken_zebra_texture",
-    "0": "ui:block/walken_zebra_texture"
+    "all": "ui:block/walken-zebra_texture",
+    "particle": "ui:block/walken-zebra_texture",
+    "0": "ui:block/walken-zebra_texture"
   },
-  "render_type": "translucent"
+  "render_type": "solid"
 }

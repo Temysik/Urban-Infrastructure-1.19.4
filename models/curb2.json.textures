@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "curb_texture"
+        "0": "curb2_texture"
       },
       "name": "default"
     }

@@ -19,10 +19,10 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-public class StreetfenceBlock extends Block {
+public class Curb1Block extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public StreetfenceBlock() {
+	public Curb1Block() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -45,10 +45,10 @@ public class StreetfenceBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(1, 0, 0, 16, 17, 3);
-			case NORTH -> box(0, 0, 13, 15, 17, 16);
-			case EAST -> box(0, 0, 0, 3, 17, 15);
-			case WEST -> box(13, 0, 1, 16, 17, 16);
+			default -> box(1, 0, 15, 16, 2, 17);
+			case NORTH -> box(0, 0, -1, 15, 2, 1);
+			case EAST -> box(15, 0, 0, 17, 2, 15);
+			case WEST -> box(-1, 0, 1, 1, 2, 16);
 		};
 	}
 

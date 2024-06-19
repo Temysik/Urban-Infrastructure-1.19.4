@@ -45,7 +45,6 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.STORAGEBOX.get().asItem());
 					tabData.accept(UiModBlocks.BUOY.get().asItem());
 					tabData.accept(UiModBlocks.HATCH.get().asItem());
-					tabData.accept(UiModBlocks.CURB.get().asItem());
 					tabData.accept(UiModBlocks.POSTAMAT_OZON.get().asItem());
 					tabData.accept(UiModBlocks.SIGNMETRO.get().asItem());
 					tabData.accept(UiModBlocks.TRASHCAN_BIG.get().asItem());
@@ -597,6 +596,8 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.SPEEDBUMPSTART.get().asItem());
 					tabData.accept(UiModBlocks.SPEED_BUMP.get().asItem());
 					tabData.accept(UiModBlocks.OTB_TWOSIDE.get().asItem());
+					tabData.accept(UiModBlocks.CURB_2.get().asItem());
+					tabData.accept(UiModBlocks.CURB_1.get().asItem());
 				})
 
 		);

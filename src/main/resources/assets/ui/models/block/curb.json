@@ -1,9 +1,0 @@
-{
-  "parent": "ui:custom/curb",
-  "textures": {
-    "all": "ui:block/curb_texture",
-    "particle": "ui:block/curb_texture",
-    "0": "ui:block/curb_texture"
-  },
-  "render_type": "cutout"
-}

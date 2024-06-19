@@ -2,14 +2,14 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "walken_zebra_texture",
+    "texture": "walken-zebra_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "walken_zebra:default",
+    "customModelName": "walken-zebra:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,34 +20,16 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -16.0,
-        "my": 1.0,
-        "mz": -16.0,
-        "Mx": 32.0,
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 15.0,
         "My": 0.5,
-        "Mz": -6.0,
-        "subtract": false
-      },
-      {
-        "mx": -16.0,
-        "my": 1.0,
-        "mz": 0.0,
-        "Mx": 32.0,
-        "My": 0.5,
-        "Mz": 10.0,
-        "subtract": false
-      },
-      {
-        "mx": -16.0,
-        "my": 1.0,
-        "mz": 16.0,
-        "Mx": 32.0,
-        "My": 0.5,
-        "Mz": 26.0,
+        "Mz": 11.0,
         "subtract": false
       }
     ],

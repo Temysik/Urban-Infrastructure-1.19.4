@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "ui:blocks/curb",
+  "random_sequence": "ui:blocks/curb_2",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ui:curb"
+          "name": "ui:curb_2"
         }
       ]
     }

@@ -20,15 +20,15 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -1.0,
+        "mx": 3.0,
         "my": 0.0,
-        "mz": -4.0,
-        "Mx": 15.0,
-        "My": 31.0,
+        "mz": -2.0,
+        "Mx": 12.0,
+        "My": 16.0,
         "Mz": 11.0,
         "subtract": false
       }

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "walken_zebra_texture"
+        "0": "walken-zebra_texture"
       },
       "name": "default"
     }

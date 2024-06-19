@@ -3,7 +3,8 @@
   "textures": {
     "all": "ui:block/electric_shield_on_stolb_texture",
     "particle": "ui:block/electric_shield_on_stolb_texture",
-    "0": "ui:block/electric_shield_on_stolb_texture"
+    "1": "ui:block/electric_shield_on_stolb_texture",
+    "2": "ui:block/stolb1"
   },
-  "render_type": "cutout"
+  "render_type": "cutout_mipped"
 }

@@ -4,13 +4,13 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="ui"
-version="2.0"
+version="2.1"
 displayName="Urban Infrastructure"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-credits="Авторы мода - Dr. Elizes, Temysik"
-authors="Dr. Elizes, Temysik"
-description="Информаторы - https://legacy.curseforge.com/minecraft/texture-packs/urban_informators Связь с авторами: t.me/urban_infrastructure"
+credits="Автор мода - Temysik"
+authors="Temysik"
+description="Телеграмм канал: t.me/urban_infrastructure"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

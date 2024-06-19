@@ -45,10 +45,10 @@ public class ElectricShieldOnStolbBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(1, 0, 5, 17, 31, 20);
-			case NORTH -> box(-1, 0, -4, 15, 31, 11);
-			case EAST -> box(5, 0, -1, 20, 31, 15);
-			case WEST -> box(-4, 0, 1, 11, 31, 17);
+			default -> box(4, 0, 5, 13, 16, 18);
+			case NORTH -> box(3, 0, -2, 12, 16, 11);
+			case EAST -> box(5, 0, 3, 18, 16, 12);
+			case WEST -> box(-2, 0, 4, 11, 16, 13);
 		};
 	}
 

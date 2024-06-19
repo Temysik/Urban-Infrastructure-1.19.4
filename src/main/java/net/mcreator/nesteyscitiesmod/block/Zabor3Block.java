@@ -23,7 +23,7 @@ public class Zabor3Block extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public Zabor3Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -45,10 +45,10 @@ public class Zabor3Block extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-15, 0, 14, 16, 15, 16);
-			case NORTH -> box(0, 0, 0, 31, 15, 2);
-			case EAST -> box(14, 0, 0, 16, 15, 31);
-			case WEST -> box(0, 0, -15, 2, 15, 16);
+			default -> box(-15, 0, -3, 17, 31, 5);
+			case NORTH -> box(-1, 0, 11, 31, 31, 19);
+			case EAST -> box(-3, 0, -1, 5, 31, 31);
+			case WEST -> box(11, 0, -15, 19, 31, 17);
 		};
 	}
 

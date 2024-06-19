@@ -1,5 +1,5 @@
 {
-  "parent": "ui:block/curb",
+  "parent": "ui:block/curb_2",
   "display": {
     "thirdperson": {
       "rotation": [

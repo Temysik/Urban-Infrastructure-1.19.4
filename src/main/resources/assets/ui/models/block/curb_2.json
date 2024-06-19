@@ -1,0 +1,9 @@
+{
+  "parent": "ui:custom/curb2",
+  "textures": {
+    "all": "ui:block/curb2_texture",
+    "particle": "ui:block/curb2_texture",
+    "0": "ui:block/curb2_texture"
+  },
+  "render_type": "solid"
+}
