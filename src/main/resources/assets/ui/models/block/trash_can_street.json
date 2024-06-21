@@ -3,7 +3,7 @@
   "textures": {
     "all": "ui:block/trashcan_street_texture",
     "particle": "ui:block/trashcan_street_texture",
-    "0": "ui:block/trashcan_street_texture"
+    "1": "ui:block/trashcan_street_texture"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }

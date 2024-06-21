@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "mail_box_texture"
+        "1": "mail-box_texture"
       },
       "name": "default"
     }

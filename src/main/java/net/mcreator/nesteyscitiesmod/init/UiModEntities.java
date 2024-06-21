@@ -26,7 +26,7 @@ public class UiModEntities {
 	public static final RegistryObject<EntityType<OstanovkaMobEntity>> OSTANOVKA_MOB = register("ostanovka_mob", EntityType.Builder.<OstanovkaMobEntity>of(OstanovkaMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OstanovkaMobEntity::new).fireImmune().sized(0.5f, 1f));
 	public static final RegistryObject<EntityType<BenchMobEntity>> BENCH_MOB = register("bench_mob",
-			EntityType.Builder.<BenchMobEntity>of(BenchMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BenchMobEntity::new).fireImmune().sized(0.6f, 1.8f));
+			EntityType.Builder.<BenchMobEntity>of(BenchMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BenchMobEntity::new).fireImmune().sized(0f, 0.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

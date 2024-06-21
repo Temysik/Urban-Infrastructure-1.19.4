@@ -45,10 +45,10 @@ public class Curb1Block extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(1, 0, 15, 16, 2, 17);
-			case NORTH -> box(0, 0, -1, 15, 2, 1);
-			case EAST -> box(15, 0, 0, 17, 2, 15);
-			case WEST -> box(-1, 0, 1, 1, 2, 16);
+			default -> box(0, 0, 14.5, 17, 2, 17);
+			case NORTH -> box(-1, 0, -1, 16, 2, 1.5);
+			case EAST -> box(14.5, 0, -1, 17, 2, 16);
+			case WEST -> box(-1, 0, 0, 1.5, 2, 17);
 		};
 	}
 

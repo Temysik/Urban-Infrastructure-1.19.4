@@ -3,7 +3,7 @@
   "textures": {
     "all": "ui:block/mail_box_texture",
     "particle": "ui:block/mail_box_texture",
-    "0": "ui:block/mail_box_texture"
+    "1": "ui:block/mail-box_texture"
   },
-  "render_type": "translucent"
+  "render_type": "solid"
 }

@@ -23,7 +23,7 @@ public class TrashBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public TrashBlock() {
-		super(BlockBehaviour.Properties.of(Material.MOSS).sound(SoundType.SCAFFOLDING).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.MOSS).sound(SoundType.DECORATED_POT).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -45,10 +45,10 @@ public class TrashBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-10, 0, 1, 25, 14, 19);
-			case NORTH -> box(-9, 0, -3, 26, 14, 15);
-			case EAST -> box(1, 0, -9, 19, 14, 26);
-			case WEST -> box(-3, 0, -10, 15, 14, 25);
+			default -> box(4, 0, 4, 13, 9, 13);
+			case NORTH -> box(3, 0, 3, 12, 9, 12);
+			case EAST -> box(4, 0, 3, 13, 9, 12);
+			case WEST -> box(3, 0, 4, 12, 9, 13);
 		};
 	}
 

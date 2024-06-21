@@ -1,9 +1,0 @@
-{
-  "parent": "ui:custom/laptop",
-  "textures": {
-    "all": "ui:block/laptop_texture",
-    "particle": "ui:block/laptop_texture",
-    "0": "ui:block/laptop_texture"
-  },
-  "render_type": "translucent"
-}

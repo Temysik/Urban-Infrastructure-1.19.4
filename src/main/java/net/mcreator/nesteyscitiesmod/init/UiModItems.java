@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.nesteyscitiesmod.item.SmartphoneItem;
 import net.mcreator.nesteyscitiesmod.item.SchemaItemItem;
 import net.mcreator.nesteyscitiesmod.item.MoneyItem;
+import net.mcreator.nesteyscitiesmod.item.GazetaItem;
 import net.mcreator.nesteyscitiesmod.item.CardItem;
 import net.mcreator.nesteyscitiesmod.UiMod;
 
@@ -585,13 +586,10 @@ public class UiModItems {
 	public static final RegistryObject<Item> OTB_TWOSIDE = block(UiModBlocks.OTB_TWOSIDE);
 	public static final RegistryObject<Item> BALKA_1 = block(UiModBlocks.BALKA_1);
 	public static final RegistryObject<Item> BALKA_2 = block(UiModBlocks.BALKA_2);
-	public static final RegistryObject<Item> CUP = block(UiModBlocks.CUP);
 	public static final RegistryObject<Item> STOLB_4_OPORA = block(UiModBlocks.STOLB_4_OPORA);
 	public static final RegistryObject<Item> STOLB_3_OPORA = block(UiModBlocks.STOLB_3_OPORA);
 	public static final RegistryObject<Item> STOLB_1_OPORA = block(UiModBlocks.STOLB_1_OPORA);
-	public static final RegistryObject<Item> RADIATOR_2 = block(UiModBlocks.RADIATOR_2);
 	public static final RegistryObject<Item> SHIELD_TRAIN_FENCE = block(UiModBlocks.SHIELD_TRAIN_FENCE);
-	public static final RegistryObject<Item> LAPTOP = block(UiModBlocks.LAPTOP);
 	public static final RegistryObject<Item> SCHEMA_ITEM = REGISTRY.register("schema_item", () -> new SchemaItemItem());
 	public static final RegistryObject<Item> MONEY = REGISTRY.register("money", () -> new MoneyItem());
 	public static final RegistryObject<Item> CARD = REGISTRY.register("card", () -> new CardItem());
@@ -599,6 +597,7 @@ public class UiModItems {
 	public static final RegistryObject<Item> RAILWAY_SHIELD_OPEN = block(UiModBlocks.RAILWAY_SHIELD_OPEN);
 	public static final RegistryObject<Item> CURB_2 = block(UiModBlocks.CURB_2);
 	public static final RegistryObject<Item> CURB_1 = block(UiModBlocks.CURB_1);
+	public static final RegistryObject<Item> GAZETA = REGISTRY.register("gazeta", () -> new GazetaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

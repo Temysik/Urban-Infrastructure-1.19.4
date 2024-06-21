@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ui:gazeta"
+    },
+    "title": {
+      "translate": "advancements.postman.title"
+    },
+    "description": {
+      "translate": "advancements.postman.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "postman_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ui:babka"
+}

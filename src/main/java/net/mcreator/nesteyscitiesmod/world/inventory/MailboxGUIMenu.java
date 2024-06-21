@@ -18,7 +18,9 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.nesteyscitiesmod.network.MailboxGUISlotMessage;
 import net.mcreator.nesteyscitiesmod.init.UiModMenus;
+import net.mcreator.nesteyscitiesmod.UiMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -78,30 +80,84 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 8) {
 			private final int slot = 0;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(0, 0, 0);
+			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 8) {
 			private final int slot = 1;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(1, 0, 0);
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 8) {
 			private final int slot = 2;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(2, 0, 0);
+			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 8) {
 			private final int slot = 3;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(3, 0, 0);
+			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 8) {
 			private final int slot = 4;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(4, 0, 0);
+			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 8) {
 			private final int slot = 5;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(5, 0, 0);
+			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 8) {
 			private final int slot = 6;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(6, 0, 0);
+			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 8) {
 			private final int slot = 7;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(7, 0, 0);
+			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 8) {
 			private final int slot = 8;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(8, 0, 0);
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -244,6 +300,13 @@ public class MailboxGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			UiMod.PACKET_HANDLER.sendToServer(new MailboxGUISlotMessage(slotid, x, y, z, ctype, meta));
+			MailboxGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

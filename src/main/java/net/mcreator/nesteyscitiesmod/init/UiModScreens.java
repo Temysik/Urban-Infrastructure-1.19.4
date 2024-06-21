@@ -23,7 +23,6 @@ import net.mcreator.nesteyscitiesmod.client.gui.OutputGazonScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.NumberGazonScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.MainMenuGazonScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.MailboxGUIScreen;
-import net.mcreator.nesteyscitiesmod.client.gui.LaptopMainMenuGUIScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.GUIMoneyScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.CassaGUIScreen;
 import net.mcreator.nesteyscitiesmod.client.gui.BankomatGUIScreen;
@@ -42,7 +41,6 @@ public class UiModScreens {
 			MenuScreens.register(UiModMenus.SMARTPHONE_SETTINGS_GUI.get(), SmartphoneSettingsGUIScreen::new);
 			MenuScreens.register(UiModMenus.BANKOMAT_GUI.get(), BankomatGUIScreen::new);
 			MenuScreens.register(UiModMenus.CASSA_GUI.get(), CassaGUIScreen::new);
-			MenuScreens.register(UiModMenus.LAPTOP_MAIN_MENU_GUI.get(), LaptopMainMenuGUIScreen::new);
 			MenuScreens.register(UiModMenus.SCHEM_MAIN_MENU.get(), SchemMainMenuScreen::new);
 			MenuScreens.register(UiModMenus.SCHEM_TRAIN_OPORA.get(), SchemTrainOporaScreen::new);
 			MenuScreens.register(UiModMenus.GUI_MONEY.get(), GUIMoneyScreen::new);

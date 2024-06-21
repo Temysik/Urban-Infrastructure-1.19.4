@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "trashcan_street_texture"
+        "1": "trashcan_street_texture"
       },
       "name": "default"
     }

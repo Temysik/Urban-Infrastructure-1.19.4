@@ -46,7 +46,6 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.BUOY.get().asItem());
 					tabData.accept(UiModBlocks.HATCH.get().asItem());
 					tabData.accept(UiModBlocks.POSTAMAT_OZON.get().asItem());
-					tabData.accept(UiModBlocks.SIGNMETRO.get().asItem());
 					tabData.accept(UiModBlocks.TRASHCAN_BIG.get().asItem());
 					tabData.accept(UiModBlocks.TRASH_CAN_STREET.get().asItem());
 					tabData.accept(UiModBlocks.INTERCOMDOMRU.get().asItem());
@@ -55,9 +54,6 @@ public class UiModTabs {
 					tabData.accept(UiModBlocks.VELO_PARKING.get().asItem());
 					tabData.accept(UiModBlocks.WALKEN_ZEBRA.get().asItem());
 					tabData.accept(UiModBlocks.TRASH.get().asItem());
-					tabData.accept(UiModBlocks.CUP.get().asItem());
-					tabData.accept(UiModBlocks.RADIATOR_2.get().asItem());
-					tabData.accept(UiModBlocks.LAPTOP.get().asItem());
 				})
 
 		);
@@ -66,6 +62,7 @@ public class UiModTabs {
 			tabData.accept(UiModBlocks.BOTTLE_777.get().asItem());
 			tabData.accept(UiModItems.SCHEMA_ITEM.get());
 			tabData.accept(UiModItems.CARD.get());
+			tabData.accept(UiModItems.GAZETA.get());
 		})
 
 		);
@@ -554,6 +551,7 @@ public class UiModTabs {
 			tabData.accept(UiModBlocks.TEMPORARY_46.get().asItem());
 			tabData.accept(UiModBlocks.TEMPORARY_47.get().asItem());
 			tabData.accept(UiModBlocks.TEMPORARY_48.get().asItem());
+			tabData.accept(UiModBlocks.SIGNMETRO.get().asItem());
 			tabData.accept(UiModItems.MONEY.get());
 		}).withSearchBar());
 		event.registerCreativeModeTab(new ResourceLocation("ui", "road_infrastructure"),

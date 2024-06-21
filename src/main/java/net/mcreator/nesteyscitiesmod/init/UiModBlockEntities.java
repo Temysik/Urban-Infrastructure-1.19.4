@@ -17,7 +17,6 @@ import net.mcreator.nesteyscitiesmod.block.entity.StorageboxBlockEntity;
 import net.mcreator.nesteyscitiesmod.block.entity.PostamatOzonBlockEntity;
 import net.mcreator.nesteyscitiesmod.block.entity.MailboxBlockEntity;
 import net.mcreator.nesteyscitiesmod.block.entity.LoftTrashBlockEntity;
-import net.mcreator.nesteyscitiesmod.block.entity.LaptopBlockEntity;
 import net.mcreator.nesteyscitiesmod.block.entity.CassaComputerBlockEntity;
 import net.mcreator.nesteyscitiesmod.UiMod;
 
@@ -30,7 +29,6 @@ public class UiModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> POSTAMAT_OZON = register("postamat_ozon", UiModBlocks.POSTAMAT_OZON, PostamatOzonBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TRASHCAN_BIG = register("trashcan_big", UiModBlocks.TRASHCAN_BIG, TrashcanBigBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TRASH_CAN_STREET = register("trash_can_street", UiModBlocks.TRASH_CAN_STREET, TrashCanStreetBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> LAPTOP = register("laptop", UiModBlocks.LAPTOP, LaptopBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

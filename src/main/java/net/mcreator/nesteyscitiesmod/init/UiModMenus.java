@@ -23,7 +23,6 @@ import net.mcreator.nesteyscitiesmod.world.inventory.OutputGazonMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.NumberGazonMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.MainMenuGazonMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.MailboxGUIMenu;
-import net.mcreator.nesteyscitiesmod.world.inventory.LaptopMainMenuGUIMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.GUIMoneyMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.CassaGUIMenu;
 import net.mcreator.nesteyscitiesmod.world.inventory.BankomatGUIMenu;
@@ -40,7 +39,6 @@ public class UiModMenus {
 	public static final RegistryObject<MenuType<SmartphoneSettingsGUIMenu>> SMARTPHONE_SETTINGS_GUI = REGISTRY.register("smartphone_settings_gui", () -> IForgeMenuType.create(SmartphoneSettingsGUIMenu::new));
 	public static final RegistryObject<MenuType<BankomatGUIMenu>> BANKOMAT_GUI = REGISTRY.register("bankomat_gui", () -> IForgeMenuType.create(BankomatGUIMenu::new));
 	public static final RegistryObject<MenuType<CassaGUIMenu>> CASSA_GUI = REGISTRY.register("cassa_gui", () -> IForgeMenuType.create(CassaGUIMenu::new));
-	public static final RegistryObject<MenuType<LaptopMainMenuGUIMenu>> LAPTOP_MAIN_MENU_GUI = REGISTRY.register("laptop_main_menu_gui", () -> IForgeMenuType.create(LaptopMainMenuGUIMenu::new));
 	public static final RegistryObject<MenuType<SchemMainMenuMenu>> SCHEM_MAIN_MENU = REGISTRY.register("schem_main_menu", () -> IForgeMenuType.create(SchemMainMenuMenu::new));
 	public static final RegistryObject<MenuType<SchemTrainOporaMenu>> SCHEM_TRAIN_OPORA = REGISTRY.register("schem_train_opora", () -> IForgeMenuType.create(SchemTrainOporaMenu::new));
 	public static final RegistryObject<MenuType<GUIMoneyMenu>> GUI_MONEY = REGISTRY.register("gui_money", () -> IForgeMenuType.create(GUIMoneyMenu::new));
