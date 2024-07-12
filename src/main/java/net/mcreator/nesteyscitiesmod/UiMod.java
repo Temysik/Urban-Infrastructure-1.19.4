@@ -17,7 +17,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.nesteyscitiesmod.init.UiModSounds;
 import net.mcreator.nesteyscitiesmod.init.UiModMenus;
 import net.mcreator.nesteyscitiesmod.init.UiModItems;
 import net.mcreator.nesteyscitiesmod.init.UiModEntities;
@@ -39,9 +38,11 @@ public class UiMod {
 	public static final String MODID = "ui";
 
 	public UiMod() {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		UiModSounds.REGISTRY.register(bus);
+
 		UiModBlocks.REGISTRY.register(bus);
 		UiModItems.REGISTRY.register(bus);
 		UiModEntities.REGISTRY.register(bus);
